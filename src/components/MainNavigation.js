@@ -1,7 +1,7 @@
 import logo from "../assests/logo.png";
-import call from "../assests/call.png";
-import timer from "../assests/timer.png";
-import location from '../assests/location.png'
+import call from "../assests/call2.png";
+import timer from "../assests/timer2.png";
+import location from '../assests/location2.png'
 
 export default function MainNavigation() {
   return (
@@ -15,7 +15,7 @@ export default function MainNavigation() {
             <img
               src={call}
               alt="call"
-              className="h-[25px] bg-green-900 rounded-full my-1"
+              className="h-[30px] rounded-full my-1"
             />
             <div className="flex flex-col px-3">
               <h2 className="font-bold text-md text-green-900">Call</h2>
@@ -26,7 +26,7 @@ export default function MainNavigation() {
             <img
               src={timer}
               alt="call"
-              className="h-[25px] bg-green-950 rounded-full my-1"
+              className="h-[30px]  my-1"
             />
             <div className="flex flex-col px-3">
               <h2 className="font-bold text-md text-green-900">Work-Time</h2>
@@ -37,7 +37,7 @@ export default function MainNavigation() {
             <img
               src={location}
               alt="call"
-              className="h-[25px] bg-green-900 rounded-full my-1"
+              className="h-[25px] rounded-full my-1"
             />
             <div className="flex flex-col px-3">
               <h2 className="font-bold text-lg text-green-900">Adderess</h2>
