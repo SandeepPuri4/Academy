@@ -17,7 +17,7 @@ export default function Welcome() {
         <div className='hidden md:block'>
         <p className="items-center w-full h-[180px] pl-3 md:text-stone-700 text-[20px]">
           Our every course are designed in a way that they are easy to <br/>follow,
-          latest in market, provide you support for questions and<br/> </p><p className='pl-24 ml-11'>can help you to land a job.</p>
+          latest in market, provide you support for questions and<br/> </p><p className='pl-24 ml-11'></p>
         </div>
       </div>
       </div>
