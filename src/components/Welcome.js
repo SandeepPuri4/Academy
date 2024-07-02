@@ -28,10 +28,12 @@ export default function Welcome() {
             <p className='text-[18px] ml-4'>experience provide all of our training</p>
             <p className='text-[18px] ml-32'>courses.</p>
             </div>
-             <div className='  md:hidden'>
-             <p className='text-[18px]'>Professional coaches with a lot of</p>
-            <p className='text-[18px]'>teaching experience provide all of </p>
-            <p className='text-[18px] ml-11'>our training courses.</p>
+             <div className='pb-2  md:hidden'>
+              <div className='w-[340px]'>
+             <p className='text-[18px] pl-9'>Professional coaches with a lot of</p>
+            <p className='text-[18px] pl-8'>teaching experience provide all of </p>
+            <p className='text-[18px] pl-20'>our training courses.</p>
+            </div>
              </div>
 
 
@@ -47,10 +49,12 @@ export default function Welcome() {
             </div>
 
 
-            <div className='md:hidden'>
-            <p className='text-[18px]'>All of our courses comes with</p>
-            <p className='text-[18px] ml-3'>certificate and are globally</p>
-            <p className='text-[18px] ml-20'>accepted.</p>
+            <div className='pb-2 md:hidden'>
+              <div className='w-[340px]'>
+            <p className='text-[18px] pl-12'>All of our courses comes with</p>
+            <p className='text-[18px] pl-16'>certificate and are globally</p>
+            <p className='text-[18px] pl-32'>accepted.</p>
+            </div>
             </div>
           </ul>
           <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
@@ -65,10 +69,12 @@ export default function Welcome() {
             </div>
 
 
-            <div className='md:hidden'>
-            <p className='text-[18px]'>We build courses on the newest</p>
-            <p className='text-[18px] ml-2'>technologies. It give students</p>
-            <p className='text-[18px] ml-3'>a sense of trust in learning.</p>
+            <div className='pb-2 md:hidden'>
+              <div className='w-[340px]'>
+            <p className='text-[18px] pl-11'>We build courses on the newest</p>
+            <p className='text-[18px] pl-12'>technologies. It give students</p>
+            <p className='text-[18px] pl-[57px]'>a sense of trust in learning.</p>
+            </div>
             </div>
           </ul>
           <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
@@ -81,10 +87,12 @@ export default function Welcome() {
             <p className='text-[18px] ml-16'>enrolling to landing a job.</p>
             </div>
 
-            <div className='md:hidden'>
-            <p className='text-[18px]'>We are with you on the whole journey</p>
-            <p className='text-[18px] ml-12'>from enrolling to landing</p>
-            <p className='text-[18px] ml-32' > a job.</p>
+            <div className='pb-2 md:hidden'>
+              <div className='w-[340px]'>
+            <p className='text-[18px] pl-4'>We are with you on the whole journey</p>
+            <p className='text-[18px] pl-16'>from enrolling to landing</p>
+            <p className='text-[18px] pl-36' > a job.</p>
+            </div>
             </div>
           </ul>
         </div>
