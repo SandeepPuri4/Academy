@@ -16,7 +16,7 @@ export default function Courses() {
           <div className="flex flex-col h-28  md:w-full md:h-60 md:flex md:flex-col items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Our Best Courses</h1>
         <div className='w-full'>
-        <p className="items-center px-2 mt-1 md:hidden">
+        <p className="items-center px-3 mt-1 md:hidden">
         Each of our courses is designed to be easy to navigate.
         up-to-date on the industry,
         to assist you with questions and to help you find a job.
@@ -28,8 +28,8 @@ export default function Courses() {
         </p>
       </div>
     </div>
-       <div className='mt-2 h-[165rem] md:h-[70rem]'>
-        <div className='flex flex-col justify-between md:flex md:flex-row md:justify-around md:flex-wrap'>
+       <div className='mt-2 h-[180rem] md:h-[70rem]'>
+        <div className='flex flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
          <div className=' h-[345px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>

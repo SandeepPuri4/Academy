@@ -11,11 +11,11 @@ export default function Welcome() {
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To FutureDev</h1>
         <div className='w-full h-40 md:hidden'>
         <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
-          Our every course are designed in a way that they are easy to follow,<br />
+          Our every course are designed in a way that they are easy to follow,
           latest in market, provide you support for questions and can help you to land a job.
         </p></div>
         <div className='hidden md:block'>
-        <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
+        <p className="items-center w-full h-[180px] pl-3 md:text-stone-700 text-[20px]">
           Our every course are designed in a way that they are easy to <br/>follow,
           latest in market, provide you support for questions and<br/> <p className='pl-24 ml-11'>can help you to land a job.</p>
         </p></div>
@@ -23,7 +23,7 @@ export default function Welcome() {
       </div>
 
         <div className='flex flex-col mx-auto md:flex md:flex-row justify-around'>
-          <ul className='flex flex-col justify-center items-center mt-6 border-2 h-[265px] rounded-lg'>
+          <ul className='flex flex-col justify-center items-center mt-6 w-[390px] mx-auto border-2 h-[265px] md:w-[360px] rounded-lg'>
             <div>
               <img src={graduation} alt='graduation-logo'/>
             </div>
@@ -43,7 +43,7 @@ export default function Welcome() {
 
 
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[265px] mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[265px] mt-6 w-[390px] mx-auto border-2 rounded-lg md:w-[360px]'>
             <div>
               <img src={certificate} alt='certificate-logo'/>
             </div>
@@ -62,7 +62,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[265px] mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[265px] mt-6 w-[390px] mx-auto border-2 rounded-lg md:w-[360px]'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
             </div>
@@ -82,7 +82,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[265px] mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[265px] w-[390px] mx-auto mt-6 border-2 rounded-lg md:w-[360px]'>
             <div>
               <img src={support} alt='support-logo'/>
             </div>
