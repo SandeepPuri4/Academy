@@ -23,7 +23,7 @@ export default function Welcome() {
       </div>
 
         <div className='flex flex-col mx-auto md:flex md:flex-row justify-around'>
-          <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center mt-6 border-2 h-[270px] rounded-lg'>
             <div>
               <img src={graduation} alt='graduation-logo'/>
             </div>
@@ -43,7 +43,7 @@ export default function Welcome() {
 
 
           </ul>
-          <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[270px] mt-6 border-2 rounded-lg'>
             <div>
               <img src={certificate} alt='certificate-logo'/>
             </div>
@@ -62,7 +62,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[270px] mt-6 border-2 rounded-lg'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
             </div>
@@ -82,7 +82,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[270px] mt-6 border-2 rounded-lg'>
             <div>
               <img src={support} alt='support-logo'/>
             </div>
