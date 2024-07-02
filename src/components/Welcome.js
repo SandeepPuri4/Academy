@@ -8,11 +8,16 @@ export default function Welcome() {
     <>
     <div className="mt-6 md:mt-36">
       <div className="flex flex-col md:w-full h-52 md:flex md:flex-col justify- items-center ">
-        <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To Academy</h1>
-        <div className='w-full h-40'>
+        <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To FutureDev</h1>
+        <div className='w-full h-40 md:hidden'>
         <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
           Our every course are designed in a way that they are easy to follow,<br />
           latest in market, provide you support for questions and can help you to land a job.
+        </p></div>
+        <div className='hidden md:block'>
+        <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
+          Our every course are designed in a way that they are easy to <br/>follow,
+          latest in market, provide you support for questions and<br/> <p className='pl-24 ml-11'>can help you to land a job.</p>
         </p></div>
       </div>
       </div>
