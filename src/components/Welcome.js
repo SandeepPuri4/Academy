@@ -6,7 +6,7 @@ import support from '../assests/support.png'
 export default function Welcome() {
   return (
     <>
-    <div className="mt-20 md:mt-36">
+    <div className="mt-6 md:mt-36">
       <div className="flex flex-col  md:w-full h-60 md:flex md:flex-col justify- items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To Academy</h1>
         <p className="items-center px-3 ml-3 md:text-stone-700 text-[20px]">
@@ -23,44 +23,69 @@ export default function Welcome() {
               <img src={graduation} alt='graduation-logo'/>
             </div>
             <h2 className='font-semibold text-[25px]'>Awesome Teachers</h2>
-            <p className='hidden md:block text-[18px]'>Professional coaches with a lot of teaching</p>
-            <p className='hidden md:block text-[18px]'>experience provide all of our training</p>
-            <p className='hidden md:block text-[18px]'>courses.</p>
+            <div className='hidden md:block'>
+            <p className='text-[18px]'>Professional coaches with a lot of teaching</p>
+            <p className='text-[18px] ml-4'>experience provide all of our training</p>
+            <p className='text-[18px] ml-32'>courses.</p>
+            </div>
+             <div className='  md:hidden'>
+             <p className='text-[18px]'>Professional coaches with a lot of</p>
+            <p className='text-[18px]'>teaching experience provide all of </p>
+            <p className='text-[18px] ml-11'>our training courses.</p>
+             </div>
 
-            <p className='text-[18px] ml-3 md:hidden'>Professional coaches with a lot of teaching experience provide all of our training courses.</p>
+
           </ul>
           <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
             <div>
               <img src={certificate} alt='certificate-logo'/>
             </div>
-            <h2 className='hidden md:block font-semibold text-[25px]'>Global certificate</h2>
-            <p className='hidden md:block text-[18px]'>All of our courses comes with certificate</p>
-            <p className='hidden md:block text-[18px]'>and are globally accepted.</p>
+            <h2 className='font-semibold text-[25px]'>Global certificate</h2>
+            <div className='hidden md:block'>
+            <p className='text-[18px]'>All of our courses comes with certificate</p>
+            <p className='text-[18px] ml-10'>and are globally accepted.</p>
+            </div>
 
-            <p className='text-[18px] ml-3 md:hidden'>All of our courses comes with certificate </p>
-            <p className='text-[18px] ml-3 md:hidden'>and are globally accepted.</p>
+
+            <div className='md:hidden'>
+            <p className='text-[18px]'>All of our courses comes with</p>
+            <p className='text-[18px] ml-3'>certificate and are globally</p>
+            <p className='text-[18px] ml-20'>accepted.</p>
+            </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center mt- md:hidden6 border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
             </div>
             <h2 className='font-semibold text-[25px]'>Best Program</h2>
-            <p className='hidden md:block text-[18px]'>We build courses on the newest</p>
-            <p className='hidden md:block text-[18px]'>technologies. It give students a sense of</p>
-            <p className='hidden md:block text-[18px]'>trust in learning.</p>
+            <div className='hidden md:block'>
+            <p className='text-[18px] ml-7'>We build courses on the newest    </p>
+            <p className='text-[18px]'>technologies.It give students a sense  of </p>
+            <p className='text-[18px] ml-20'>trust in learning</p>
+            </div>
 
-            <p className='text-[18px] ml-8 '>We build courses on the newest technologies. It give students a</p>
-            <p className='text-[18px] '>sense of trust in learning.</p>
+
+            <div className='md:hidden'>
+            <p className='text-[18px]'>We build courses on the newest</p>
+            <p className='text-[18px] ml-2'>technologies. It give students</p>
+            <p className='text-[18px] ml-3'>a sense of trust in learning.</p>
+            </div>
           </ul>
           <ul className='flex flex-col justify-center items-center mt-6 border-2 rounded-lg'>
             <div>
               <img src={support} alt='support-logo'/>
             </div>
             <h2 className='font-semibold text-[25px]'>Student Support service</h2>
-            <p className=' hidden md:block text-[18px]'>We are with you on the whole journey from</p>
-            <p className=' hidden md:block text-[18px]'>enrolling to landing a job.</p>
+            <div className='hidden md:block'>
+            <p className='text-[18px]'>We are with you on the whole journey from</p>
+            <p className='text-[18px] ml-16'>enrolling to landing a job.</p>
+            </div>
 
-            <p className=' text-[18px] ml-3'>We are with you on the whole journey from enrolling to landing a job.</p>
+            <div className='md:hidden'>
+            <p className='text-[18px]'>We are with you on the whole journey</p>
+            <p className='text-[18px] ml-12'>from enrolling to landing</p>
+            <p className='text-[18px] ml-32' > a job.</p>
+            </div>
           </ul>
         </div>
 

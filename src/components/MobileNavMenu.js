@@ -11,14 +11,10 @@ const MobileNav = () => {
   };
 
   return (
-    
-
     <>
-
-
-      <div className='flex justify-between  mt-2 md:hiden'>
+    <div className='flex justify-between  mt-2 md:hiden'>
      <div className=" mb-1 mx-2 py-3 md:hidden">
-          <img src={logo} alt="logo" className=" rounded-sm h-14 w-[200px]"/>
+          <img src={logo} alt="logo" className=" rounded-sm h-[70px] w-[200px]"/>
          </div> 
     <div className="relative h-20 w-36 mt-2 py-2 flex overflow-hidden md:hidden"> 
       <button
