@@ -7,13 +7,13 @@ export default function Welcome() {
   return (
     <>
     <div className="mt-6 md:mt-36">
-      <div className="flex flex-col  md:w-full h-60 md:flex md:flex-col justify- items-center ">
+      <div className="flex flex-col md:w-full h-52 md:flex md:flex-col justify- items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To Academy</h1>
-        <p className="items-center px-3 ml-3 md:text-stone-700 text-[20px]">
-          Our every course are designed in a way that they are easy to <br />
-          follow, latest in market, provide you support for questions and
-          <br /> can help you to land a job.
-        </p>
+        <div className='w-full h-40'>
+        <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
+          Our every course are designed in a way that they are easy to follow,<br />
+          latest in market, provide you support for questions and can help you to land a job.
+        </p></div>
       </div>
       </div>
 

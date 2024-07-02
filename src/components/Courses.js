@@ -12,14 +12,15 @@ import flutter from '../assests/flutterImg.png'
 
 export default function Courses() {
   return <>
-          <div className="mt-8 h-36 md:w-full md:h-72 md:mt-8">
+          <div className="mt-7 h-36 md:w-full md:h-72 md:mt-8">
           <div className="flex flex-col h-28  md:w-full md:h-60 md:flex md:flex-col items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Our Best Courses</h1>
-        <p className="items-center px-3 mt-1 ml-3 md:hidden">
+        <div className='w-full'>
+        <p className="items-center px-2 mt-1 md:hidden">
         Each of our courses is designed to be easy to navigate.
         up-to-date on the industry,
         to assist you with questions and to help you find a job.
-        </p>
+        </p></div>
         <p className="hidden md:block md:text-stone-700 text-[20px]">
         Each of our courses is designed to be easy to navigate.<br/>
         up-to-date on the industry,<br/>

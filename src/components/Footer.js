@@ -12,10 +12,10 @@ import facebook from '../assests/facebook.png'
 
 export default function Footer() {
   return <> 
-       <footer className="h-[800px] w-full md:h-44 ">
+       <footer className="h-[730px] w-full md:h-44 ">
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
-            <p className='md:mt-12'>
+            <p className='mt-5 md:mt-12'>
               <img src={logo} alt='academy-logo' className='h-[90px] w-[240px] rounded-sm' />
             </p>
            </div>
