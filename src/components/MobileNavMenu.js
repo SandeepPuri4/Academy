@@ -16,7 +16,7 @@ const MobileNav = () => {
      <div className=" mb-1 mx-2 py-3 md:hidden">
           <img src={logo} alt="logo" className=" rounded-sm h-[70px] w-[200px]"/>
          </div> 
-    <div className="relative h-20 w-36 mt-2 py-2 flex overflow-hidden md:hidden"> 
+    <div className="relative h-20 w-[155px] mt-2 py-2 ml-2 flex overflow-hidden md:hidden"> 
       <button
         className="text-3xl absolute right-4 z-20 bg-transparent border-none"
         onClick={toggleSidebar}
