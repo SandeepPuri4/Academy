@@ -34,7 +34,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={node} alt='node-image' className='p-3' />
+            <img src={node} alt='node-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Python Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={python} alt='python-image' className='p-3' />
+            <img src={python} alt='python-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete React.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={reactCourse} alt='react-image' className='p-3' />
+            <img src={reactCourse} alt='react-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete web designing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={html} alt='web-image' className='p-3' />
+            <img src={html} alt='web-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Java Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={java} alt='java-image' className='p-3' />
+            <img src={java} alt='java-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Degital marketing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Degital marketing</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={digital} alt='digital-image' className='p-3' />
+            <img src={digital} alt='digital-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Angular Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={angular} alt='angular-image' className='p-3' />
+            <img src={angular} alt='angular-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7'>
-            <img src={node} alt='node-image' className='p-3' />
+            <img src={node} alt='node-image' className='p-3 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Courses() {
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7 border-green-900'>
-            <img src={flutter} alt='node-image' className='p-3 w-[400px] h-[310px] border-green-800' />
+            <img src={flutter} alt='node-image' className='p-3 w-[400px] h-[310px] border-green-800 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>

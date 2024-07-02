@@ -4,10 +4,15 @@ import timer2 from '../assests/timer3.png'
 import logo from '../assests/logo.png'
 
 
+import instagram from '../assests/instagram.png'
+import whatsapp from '../assests/whatsapp2.png'
+import facebook from '../assests/facebook.png'
+
+
 
 export default function Footer() {
   return <> 
-       <footer className="h-[800px] w-full md:h-52 ">
+       <footer className="h-[800px] w-full md:h-44 ">
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p>
@@ -55,5 +60,13 @@ export default function Footer() {
            
 
        </footer>
+       <ul className='flex justify-center gap-4 items-center w-full   md:flex md:justify-center md:w-full'>
+              <li><a href="https://www.instagram.com/futuredev_academy">
+            <img className="transition-transform duration-300 hover:scale-110" src={instagram} alt="description" /></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=917016613842" className='mt-2'>
+            <img className="transition-transform duration-300 hover:scale-110" src={whatsapp} alt="description" /></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61560387369650">
+            <img className="transition-transform duration-300 hover:scale-110" src={facebook} alt="description" /></a></li>
+            </ul>
   </>
 }

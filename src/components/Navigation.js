@@ -1,4 +1,6 @@
-
+import instagram from '../assests/instagram.png'
+import whatsapp from '../assests/whatsapp2.png'
+import facebook from '../assests/facebook.png'
 
 export default function Navigation() {
   return <>
@@ -11,9 +13,16 @@ export default function Navigation() {
         <li><a className="hover:underline" href="/">About</a></li>
       </ul>
           </div>
-          <div>
-            <button className="bg-green-600 text-white py-1 px-4 rounded-lg hover:bg-green-700">ENQUIRY</button>
-          </div>
+          
+            <ul className='flex justify-between w-44'>
+              <li><a href="https://www.instagram.com/futuredev_academy">
+            <img className="transition-transform duration-300 hover:scale-110" src={instagram} alt="description" /></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=917016613842" className='mt-2'>
+            <img className="transition-transform duration-300 hover:scale-110" src={whatsapp} alt="description" /></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61560387369650">
+            <img className="transition-transform duration-300 hover:scale-110" src={facebook} alt="description" /></a></li>
+            </ul>
+          
          </div>
          </>
 }
