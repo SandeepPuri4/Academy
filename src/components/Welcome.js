@@ -9,7 +9,7 @@ export default function Welcome() {
     <div className="mt-8 mx-auto md:mt-80">
       <div className="flex flex-col h-40 md:w-full md:h-52 md:flex md:flex-col justify- items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To FutureDev</h1>
-        <div className='w-[90%] mx-auto md:hidden md:h-40'>
+        <div className='w-[95%] mx-auto md:hidden md:h-40'>
         <p className="items-center w-full pl-3 md:text-stone-700 text-[17px]">
           Our every course are designed in a way that they are easy to follow,
           latest in market, provide you support for questions and can help you to land a job.

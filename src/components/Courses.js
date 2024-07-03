@@ -13,13 +13,11 @@ import flutter from '../assests/flutterImg.png'
 export default function Courses() {
   return <>
           <div className="mt-7 h-36 md:w-full md:h-72 md:mt-8">
-          <div className="flex flex-col h-28  md:w-full md:h-60 md:flex md:flex-col items-center ">
+          <div className="flex flex-col h-36 w-[98%] px-2  md:w-full md:h-60 md:flex md:flex-col items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Our Best Courses</h1>
         <div className='w-full'>
-        <p className="items-center px-3 mt-1 md:hidden">
-        Each of our courses is designed to be easy to navigate.
-        up-to-date on the industry,
-        to assist you with questions and to help you find a job.
+        <p className="items-center text-[15px]] mt-1 md:hidden">
+        Each of our courses is designed to be easy to navigate up-to-date on the industry,to assist you with questions and to help you find a job.
         </p></div>
         <p className="hidden md:block md:text-stone-700 text-[20px]">
         Each of our courses is designed to be easy to navigate.<br/>
@@ -28,7 +26,7 @@ export default function Courses() {
         </p>
       </div>
     </div>
-       <div className='mt-2 h-[185rem] md:h-[78rem]'>
+       <div className='mt-2 h-[180rem] md:h-[78rem]'>
         <div className='flex flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
          <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
