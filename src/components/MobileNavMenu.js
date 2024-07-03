@@ -1,4 +1,4 @@
-import logo from '../assests/futuredevLogo.png.jpg'
+import logo from '../assests/logo3.png'
 
 
 import React, { useState } from 'react';

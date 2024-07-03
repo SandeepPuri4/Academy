@@ -6,7 +6,7 @@ import support from '../assests/support.png'
 export default function Welcome() {
   return (
     <>
-    <div className="mt-6 md:mt-36">
+    <div className="mt-6 mx-auto md:mt-36">
       <div className="flex flex-col md:w-full h-52 md:flex md:flex-col justify- items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To FutureDev</h1>
         <div className='w-full h-40 md:hidden'>
