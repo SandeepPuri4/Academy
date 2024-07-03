@@ -59,7 +59,7 @@ export default function Form() {
   };
 
   return (
-    <div className="h-[650px] flex items-center justify-center mt-24 bg-gray-100 md:mt-32">
+    <div className="h-[650px] flex items-center justify-center mt-12 bg-gray-100 md:mt-32">
       <div className="bg-orange-400 p-8 rounded shadow-md w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center text-white">Enroll Now<br/>and Get Skilled</h2>
         <form method='POST' onSubmit={submitData} className="space-y-4">

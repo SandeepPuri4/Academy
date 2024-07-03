@@ -28,9 +28,9 @@ export default function Courses() {
         </p>
       </div>
     </div>
-       <div className='mt-2 h-[180rem] md:h-[70rem]'>
+       <div className='mt-2 h-[185rem] md:h-[78rem]'>
         <div className='flex flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -39,7 +39,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Python Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -48,7 +48,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete React.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -57,7 +57,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete web designing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -66,7 +66,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Java Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -75,7 +75,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Degital marketing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Degital marketing</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -84,7 +84,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Angular Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -93,7 +93,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[345px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[400px] mt-3'> 
           <div className='flex justify-center flex-col h-7rem items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
