@@ -6,16 +6,16 @@ import support from '../assests/support.png'
 export default function Welcome() {
   return (
     <>
-    <div className="mt-2 mx-auto md:mt-80">
-      <div className="flex flex-col md:w-full h-52 md:flex md:flex-col justify- items-center ">
+    <div className="mt-8 mx-auto md:mt-80">
+      <div className="flex flex-col h-40 md:w-full md:h-52 md:flex md:flex-col justify- items-center ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Welcome To FutureDev</h1>
-        <div className='w-full h-40 md:hidden'>
-        <p className="items-center w-full pl-3 md:text-stone-700 text-[20px]">
+        <div className='w-[90%] mx-auto md:hidden md:h-40'>
+        <p className="items-center w-full pl-3 md:text-stone-700 text-[17px]">
           Our every course are designed in a way that they are easy to follow,
           latest in market, provide you support for questions and can help you to land a job.
         </p></div>
         <div className='hidden md:block'>
-        <p className="items-center w-full h-[180px] pl-3 md:text-stone-700 text-[20px]">
+        <p className="items-center w-full h-[180px] pl-3 md:text-stone-700 md:text-[20px]">
           Our every course are designed in a way that they are easy to <br/>follow,
           latest in market, provide you support for questions and<br/> </p><p className='pl-24 ml-11'></p>
         </div>
