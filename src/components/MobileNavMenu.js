@@ -1,4 +1,5 @@
 import logo from '../assests/logo3.png'
+import { Link } from 'react-router-dom';
 
 
 import React, { useState } from 'react';
@@ -39,19 +40,19 @@ const MobileNav = () => {
         <nav className="mt-16">
           <ul className="space-y-4">
             <li>
-              <a href="#home" className="block px-6 py-2 hover:bg-gray-700">
+              <Link to="/" className="block px-6 py-2 hover:bg-gray-700">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#services" className="block px-6 py-2 hover:bg-gray-700">
+              <Link to="/courses" className="block px-6 py-2 hover:bg-gray-700">
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#about" className="block px-6 py-2 hover:bg-gray-700">
+              <Link to="/contact" className="block px-6 py-2 hover:bg-gray-700">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#contact" className="block px-6 py-2 hover:bg-gray-700">

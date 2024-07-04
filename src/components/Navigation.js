@@ -1,16 +1,19 @@
 // import instagram from '../assests/instagram.png'
 // import whatsapp from '../assests/whatsapp2.png'
 // import facebook from '../assests/facebook.png'
+import { Link } from "react-router-dom"
+   
+
 
 export default function Navigation() {
   return <>
          <div className="hidden md:flex justify-around">
           <div>
           <ul className="hidden md:flex flex-row gap-16 justify-center items-center text-[20px] font-[60px]"> 
-        <li><a className="hover:underline" href="/">Home</a></li>
-        <li><a className="hover:underline" href="/">Courses</a></li>
-        <li><a className="hover:underline" href="/">Contact</a></li>
-        <li><a className="hover:underline" href="/">About</a></li>
+        <li><a className="hover:underline hover:text-blue-950" href="/">Home</a></li>
+        <li><Link className="hover:underline hover:text-blue-950" to="/courses">Courses</Link></li>
+        <li><Link className="hover:underline hover:text-blue-950" to="/contact">Contact</Link></li>
+        <li><a className="hover:underline hover:text-blue-950" href="/">About</a></li>
       </ul>
           </div>
           

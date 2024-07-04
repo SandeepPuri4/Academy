@@ -2,6 +2,7 @@
 // import location2 from '../assests/location2.png'
 // import timer2 from '../assests/timer3.png'
 import logo from '../assests/logo3.png'
+import { Link } from 'react-router-dom'
 
 
 // import instagram from '../assests/instagram.png'
@@ -51,8 +52,8 @@ export default function Footer() {
               <ul className='' > 
                <li><a className="font-bold text-[25px] text-green-700 md:hidden" href="/">Links</a></li>
                <li><a className="hover:underline font-semibold " href="/">Home</a></li>
-               <li><a className="hover:underline font-semibold" href="/">Courses</a></li>
-               <li><a className="hover:underline font-semibold" href="/">Contact</a></li>
+               <li><Link className="hover:underline font-semibold" to="/courses">Courses</Link></li>
+               <li><Link className="hover:underline font-semibold" to="/contact">Contact</Link></li>
                <li><a className="hover:underline font-semibold" href="/">About</a></li>
              </ul>
               </div>
