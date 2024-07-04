@@ -10,13 +10,13 @@ export default function Welcome() {
       <div className="flex flex-col h-40  md:h-52 md:flex md:flex-col justify- items-center md:w-[750px] mx-auto ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px] md:w-[95%]">Welcome To FutureDev</h1>
         <div className='w-[405px] mx-3 md:hidden md:h-40 md:w-[250px]'>
-        <p className="items-center w-full px-6 font-light text-[17px]">
+        <p className="items-center w-full px-7 text-[16px]">
           Our every course are designed in a way that they</p>
-        <p className="items-center w-full px-6 font-light text-[17px]">
+        <p className="items-center w-full px-6 text-[16px]">
           are easy to follow, latest in the market,provide you</p>
-        <p className="items-center w-full px-7 font-light text-[17px]">
+        <p className="items-center w-full px-7  text-[16px]">
           support for questions and can help you to land a</p>
-        <p className="items-center w-full px-48 font-light text-[17px]">
+        <p className="items-center w-full px-48  text-[16px]">
           job.</p>
           
           
