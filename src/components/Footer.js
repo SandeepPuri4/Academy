@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return <> 
-       <footer className="h-[630px] w-[405px] md:h-44 md:w-full ">
+       <footer className="h-[630px] w-[415px] md:h-44 md:w-full ">
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p className='mt-5 md:mt-16'>

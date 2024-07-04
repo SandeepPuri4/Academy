@@ -41,3 +41,13 @@ body {
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
+
+
+
+
+
+ @media (max-width: 415px) {
+  body {
+    @apply w-[415px];
+  }
+}

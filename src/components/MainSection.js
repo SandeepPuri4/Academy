@@ -18,7 +18,7 @@ export default function MainSection() {
          {/* <div className="h-[100px] w-[280px] mt-24 mb-1 mx-2 md:hidden">
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}
-         <div className="h-[400px] w-[400px]   bg-blue-50 md:bg-white md:h-[700px] flex mx-auto md:w-[75rem] md:mx-auto">
+         <div className="h-[400px] w-[415px]   bg-blue-50 md:bg-white md:h-[700px] flex mx-auto md:w-[75rem] md:mx-auto">
           <div className="md:w-[80rem] md:flex ">
       <div className="mt-0 h-[400px] md:h-[510px] flex flex-col md:flex md:flex-row md:mt-24 ">
           <div className="mt-5 flex flex-col md:mt-14">
