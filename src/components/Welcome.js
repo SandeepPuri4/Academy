@@ -10,14 +10,21 @@ export default function Welcome() {
       <div className="flex flex-col h-40  md:h-52 md:flex md:flex-col justify- items-center md:w-[750px] mx-auto ">
         <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px] md:w-[95%]">Welcome To FutureDev</h1>
         <div className='w-[405px] mx-3 md:hidden md:h-40 md:w-[250px]'>
-        <p className="items-center w-full px-4 md:text-stone-700 text-[16px]">
-          Our every course are designed in a way that they are easy to follow,
-          latest in market, provide you support for questions and can help you to land a job.
-        </p></div>
+        <p className="items-center w-full px-4 md:text-stone-700 text-[17px]">
+          Our every course are designed in a way that they</p>
+        <p className="items-center w-full px-3 text-[17px]">
+          are easy to follow, latest in the market,provide you</p>
+        <p className="items-center w-full px-4  text-[17px]">
+          support for questions and can help you to land a</p>
+        <p className="items-center w-full px-48  text-[17px]">
+          job.</p>
+          
+          
+          </div>
         <div className='hidden md:block'>
-        <p className="items-center w-full text-[15px] h-[180px] pl-3 md:text-stone-700 md:text-[20px]">
+        <p className="items-center w-full text-[15px] h-[180px] pl-3  md:text-[18px]">
           Our every course are designed in a way that they are easy to <br/>follow,
-          latest in market, provide you support for questions and<br/> </p><p className='pl-24 ml-11'></p>
+          latest in market, provide you support for questions and <br/>can help you land a job.</p>
         </div>
       </div>
       </div>
