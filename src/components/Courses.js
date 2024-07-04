@@ -12,23 +12,23 @@ import flutter from '../assests/flutterImg.png'
 
 export default function Courses() {
   return <>
-          <div className="mt-7 h-36 md:w-full md:h-72 md:mt-8">
-          <div className="flex flex-col h-36 w-[98%] px-2  md:w-full md:h-60 md:flex md:flex-col items-center ">
-        <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px]">Our Best Courses</h1>
-        <div className='w-full'>
-        <p className="items-center text-[15px]] mt-1 md:hidden">
+          <div className="mt-7 h-36 w-[405px]  md:w-full md:h-72 md:mt-8">
+          <div className="flex flex-col h-36 w-[100%] px-4  md:w-full md:h-60 md:flex md:flex-col items-center ">
+        <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:mx-0">Our Best Courses</h1>
+        <div className='w-[390px] px-2 ml-4'>
+        <p className="items-center text-[16px]] mt-1 md:hidden">
         Each of our courses is designed to be easy to navigate up-to-date on the industry,to assist you with questions and to help you find a job.
         </p></div>
         <p className="hidden md:block md:text-stone-700 text-[20px]">
         Each of our courses is designed to be easy to navigate.<br/>
-        up-to-date on the industry,<br/>
-        to assist you with questions and to help you find a job.
+        up-to-date on the industry,
+        to assist you with questions and <br/> to help you find a job.
         </p>
       </div>
     </div>
-       <div className='mt-2 h-[180rem] md:h-[78rem]'>
+       <div className='mt-1 h-[180rem] w-[405px] md:h-[70rem] md:w-[75rem] md:mx-auto'>
         <div className='flex flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[320px] md:w-[370px] '> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -37,7 +37,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Python Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -46,7 +46,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px]  md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete React.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -55,7 +55,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px]  md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete web designing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -64,7 +64,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px]  md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Java Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -73,7 +73,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px] md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Degital marketing</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Degital marketing</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -82,7 +82,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px]'> 
+         <div className=' h-[370px]  md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Angular Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -91,7 +91,7 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className=' h-[370px] md:h-[400px] mt-3'> 
+         <div className=' h-[370px]  md:h-[320px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-7rem items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
@@ -100,12 +100,12 @@ export default function Courses() {
             </p>
           </div>
         </div>
-         <div className='hidden md:block h-[345px] md:h-[400px]'> 
+         <div className='hidden md:block h-[345px] md:h-[300px] md:w-[370px]'> 
           <div className='flex justify-center flex-col h-[7rem] items-start'>
             <h3 className='font-semibold text-xl ml-5'>Complete Node.js Course</h3>
             <div className='flex flex-row pt-1 ml-5'><p>Web development</p><img src={web} alt='web-logo' className='w-[25px] h-[25px] ml-2'/></div>
             <p className='w-[80%], h-7 border-green-900'>
-            <img src={flutter} alt='node-image' className='p-3 w-[400px] h-[310px] border-green-800 transition-transform duration-300 hover:scale-105' />
+            <img src={flutter} alt='node-image' className='p-3 w-[400px] h-[240px] border-green-800 transition-transform duration-300 hover:scale-105' />
             </p>
           </div>
         </div>

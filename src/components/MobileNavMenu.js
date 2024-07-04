@@ -13,7 +13,7 @@ const MobileNav = () => {
 
   return (
     <>
-    <div className='flex justify-between  mt-2 md:hiden'>
+    <div className='md:hidden flex justify-between w-[400px] h-28 bg-blue-50  md:hideen md:bg-white md:mt-0'>
      <div className=" mb-1 mx-2 py-3 md:hidden">
           <img src={logo} alt="logo" className=" rounded-sm h-[70px] w-[200px]"/>
          </div> 

@@ -13,43 +13,43 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return <> 
-       <footer className="h-[730px] w-full md:h-44 ">
+       <footer className="h-[630px] w-[405px] md:h-44 md:w-full ">
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p className='mt-5 md:mt-16'>
               <img src={logo} alt='academy-logo' className='h-[80px] w-[230px] rounded-sm' />
             </p>
            </div>
-              <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'>
-              <p className="mr-3 mb-8">
+              
+                <div className='flex flex-col justify-center items-center'>
+              <p className="mr-1 mb-3">
           <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="20" height="20"><path d="M23,11a1,1,0,0,1-1-1,8.008,8.008,0,0,0-8-8,1,1,0,0,1,0-2A10.011,10.011,0,0,1,24,10,1,1,0,0,1,23,11Zm-3-1a6,6,0,0,0-6-6,1,1,0,1,0,0,2,4,4,0,0,1,4,4,1,1,0,0,0,2,0Zm2.183,12.164.91-1.049a3.1,3.1,0,0,0,0-4.377c-.031-.031-2.437-1.882-2.437-1.882a3.1,3.1,0,0,0-4.281.006l-1.906,1.606A12.784,12.784,0,0,1,7.537,9.524l1.6-1.9a3.1,3.1,0,0,0,.007-4.282S7.291.939,7.26.908A3.082,3.082,0,0,0,2.934.862l-1.15,1C-5.01,9.744,9.62,24.261,17.762,24A6.155,6.155,0,0,0,22.183,22.164Z"/></svg>
           </p>
-                <div>
-                  <h3 className='font-semibold text-[20px]'>Call</h3>
-                  <p className='font-semibold text-[17px]'>7016613842/<br/>9537027523</p>
+                  <h5 className=' text-[20px]'>Call</h5>
+                  <p className=' text-[16px]'>+917016613842 | +919537027523</p>
                 </div>
-              </div>
-              <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'>
-              <p className="mr-3 mb-8">
+              
+              {/* <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'> */}
+                <div className='flex flex-col justify-center items-center'>
+              <p className="mr-3 mb-2">
           <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="23" height="23"><path d="M14,7a2,2,0,1,1-2-2A2,2,0,0,1,14,7Zm2.95,4.957L12,16.8,7.058,11.964a7,7,0,1,1,9.892-.008ZM16,7a4,4,0,1,0-4,4A4,4,0,0,0,16,7Zm5.867,3.613-1.435-.48a8.948,8.948,0,0,1-2.068,3.239L12,19.6l-6.34-6.2A8.989,8.989,0,0,1,3.24,9.029,2.968,2.968,0,0,0,0,12v9.752l7.983,2.281,8.02-2,8,1.948V13.483A3,3,0,0,0,21.867,10.612Z"/></svg>
           </p>
-                <div>
-                  <h3 className='font-semibold text-[20px]'>Adderess</h3>
-                  <p className='font-semibold text-[17px]'>Gandhidhaam,<br/>Kutch</p>
+                  <h3 className=' text-[20px]'>Adderess</h3>
+                  <p className=' text-[16px]'>405 Royal Plaza RG road <br/> </p> <p>North West Area , Gandhidham-05</p>
                 </div>
-              </div>
-              <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'>
-              <p className="mr-3 mb-8">
+              {/* </div> */}
+              {/* <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'> */}
+                <div className='flex flex-col justify-center items-center'>
+              <p className=" mb-2">
           <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="20" height="20"><path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm4,13h-4c-.552,0-1-.447-1-1V6c0-.553,.448-1,1-1s1,.447,1,1v5h3c.553,0,1,.447,1,1s-.447,1-1,1Z"/></svg>
           </p>
-                <div>
-                  <h3 className='font-semibold text-[20px]'>Work-Time</h3>
-                  <p className='font-semibold text-[17px]'>9 Am to <br/>8 Pm</p>
+                  <h3 className='text-[20px]'>Work-Time</h3>
+                  <p className=' text-[16px]'>Mon-Fri 9Am-8Pm</p>
                 </div>
-              </div>
+              {/* </div> */}
               <div className='flex flex-row justify-center mt-12 md:mt-16'>
                 
-              <ul className='' > 
+              <ul className='hidden md:block' > 
                <li><a className="font-bold text-[25px] text-green-700 md:hidden" href="/">Links</a></li>
                <li><a className="hover:underline font-semibold " href="/">Home</a></li>
                <li><Link className="hover:underline font-semibold" to="/courses">Courses</Link></li>
@@ -61,7 +61,7 @@ export default function Footer() {
            
 
        </footer>
-       <ul className='flex justify-center gap-4 items-center w-full   md:flex md:justify-center md:w-full h-28 md:gap-6'>
+       <ul className='flex justify-center mb-3 gap-4 items-center w-[400px]   md:flex md:justify-center md:w-full h-28 md:gap-6'>
               <li  className="transition-transform duration-300 hover:scale-110"><a href="https://www.instagram.com/futuredev_academy">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 50 50">
               <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
