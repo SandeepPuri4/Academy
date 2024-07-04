@@ -16,9 +16,9 @@ export default function Courses() {
           <div className="flex flex-col h-36 w-[100%] px-4  md:w-full md:h-60 md:flex md:flex-col items-center ">
         <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:mx-0">Our Best Courses</h1>
         <div className='w-[415px] h-24 md:hidden'>
-        <p className="items-center text-[16px]] px-16 ">Each of course is designed to be easy to</p>
-        <p className="items-center text-[16px]] px-8 md:hidden">navigate, up to date on the industry ,to assist you</p>
-        <p className="items-center text-[16px]] px-16">with question and help you find a job.</p>
+        <p className="items-center text-[16px]] font-light px-16 ">Each of course is designed to be easy to</p>
+        <p className="items-center text-[16px]] font-light px-9 md:hidden">navigate, up to date on the industry ,to assist you</p>
+        <p className="items-center text-[16px]] font-light px-20">with question and help you find a job.</p>
         </div>
         <p className="hidden md:block md:text-stone-700 text-[18px]">
         Each of our courses is designed to be easy to navigate.<br/>

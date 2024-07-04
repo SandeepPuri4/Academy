@@ -26,13 +26,13 @@ export default function MainSection() {
             <h1  className="text-[30px] mx-auto text-green-950 font-semibold  md:text-[70px] md:w-[650px] md:mx-auto md:px-24">Your Career</h1>
             <div className="block md:hidden">
             <div className=" w-[415px] mt-6 h-[180px] md:hidden">
-              <p className="text-[16px] px-10">Enroll in our programs built with top university</p>
-              <p className="text-[16px] px-8">and industry partners, with dedicated mentorship </p>
-              <p className="text-[16px] px-12">and expert career guidance.,We partner with</p>
-              <p className="text-[16px] px-12">companies and individuals to address their</p>
-              <p className="text-[16px] px-10">unique needs, providing training and coaching</p>
-              <p className="text-[16px] px-11">that helps working professionals achieve their</p>
-              <p className="text-[16px] px-40">career goals.</p>
+              <p className="text-[17px] px-10 font-light">Enroll in our programs built with top university</p>
+              <p className="text-[17px] px-8 font-light">and industry partners, with dedicated mentorship </p>
+              <p className="text-[17px] px-12 font-light">and expert career guidance.,We partner with</p>
+              <p className="text-[17px] px-12 font-light">companies and individuals to address their</p>
+              <p className="text-[17px] px-10 font-light">unique needs, providing training and coaching</p>
+              <p className="text-[17px] px-11 font-light">that helps working professionals achieve their</p>
+              <p className="text-[17px] px-40 font-light">career goals.</p>
             </div>
             </div>
             <div className="hidden md:block">
