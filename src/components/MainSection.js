@@ -15,6 +15,7 @@ export default function MainSection() {
     dispatch(openForm());
   }
   return <>
+        
          {/* <div className="h-[100px] w-[280px] mt-24 mb-1 mx-2 md:hidden">
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}

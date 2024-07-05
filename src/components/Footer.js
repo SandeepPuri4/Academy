@@ -17,7 +17,7 @@ export default function Footer() {
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p className='mt-5 md:mt-16'>
-              <img src={logo} alt='academy-logo' className='h-[80px] w-[230px] rounded-sm' />
+              <img src={logo} alt='academy-logo' className=' h-[55px] w-[155px] rounded-sm' />
             </p>
            </div>
               

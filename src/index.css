@@ -51,3 +51,7 @@ body {
     @apply w-[415px];
   }
 }
+
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
