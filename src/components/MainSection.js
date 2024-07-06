@@ -15,7 +15,7 @@ export default function MainSection() {
     dispatch(openForm());
   }
   return <>
-        
+  
          {/* <div className="h-[100px] w-[280px] mt-24 mb-1 mx-2 md:hidden">
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}
@@ -27,7 +27,7 @@ export default function MainSection() {
             <h1  className="text-[30px] mx-auto text-green-950 font-semibold  md:text-[70px] md:w-[650px] md:mx-auto md:px-24">Your Career</h1>
             <div className="block md:hidden">
             <div className=" w-[415px] mt-6 h-[180px] md:hidden">
-              <p className=" text-[16px] px-10">Enroll in our programs built with top university</p>
+              <p className="text-[16px] px-10">Enroll in our programs built with top university</p> 
               <p className="text-[16px] px-8">and industry partners, with dedicated mentorship </p>
               <p className="text-[16px] px-12">and expert career guidance.,We partner with</p>
               <p className="text-[16px] px-12">companies and individuals to address their</p>
@@ -62,3 +62,7 @@ export default function MainSection() {
 
   </>
 }
+
+
+
+// sandeep puri goswami son of ganesh puri goswami.......
