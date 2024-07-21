@@ -27,7 +27,7 @@ const MobileNav = () => {
       <div>
          </div>
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform ${
+        className={`fixed top-0 left-0 h-full w-64 bg-prime1 text-white transform ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 z-10`}
       >

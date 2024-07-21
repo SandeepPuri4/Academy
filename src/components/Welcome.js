@@ -6,10 +6,10 @@ import support from '../assests/support.png'
 export default function Welcome() {
   return (
     <>
-    <div className="mt-8 w-[415px] mx-auto md:w-[75rem] md:h-[250px] md:mt-1 ">
+    <div className="mt-8 w-[415px] mx-auto md:w-full md:h-[180px] md:mt-1 ">
       <div className="flex flex-col h-40  md:h-52 md:flex md:flex-col justify- items-center md:w-[750px] mx-auto ">
-        <h1 className="font-semibold text-[30px] text-green-950 md:font-bold md:text-[65px] md:w-[95%]">Welcome To FutureDev</h1>
-        <div className='w-[405px] mx-3 md:hidden md:h-40 md:w-[250px]'>
+        <h1 className="font-semibold text-[30px] text-prime1 md:font-bold md:text-[55px] md:w-[95%] px-8">Welcome To FutureDev</h1>
+        <div className='w-[405px] mx-3 md:hidden md:h-40 '>
         <p className="items-center w-full px-7 text-[16px]">
           Our every course are designed in a way that they</p>
         <p className="items-center w-full px-6 text-[16px]">
@@ -21,16 +21,16 @@ export default function Welcome() {
           
           
           </div>
-        <div className='hidden md:block'>
-        <p className="items-center w-full text-[15px] h-[180px] pl-3  md:text-[18px]">
+        <div className='hidden md:block w-full px-4'>
+        <p className="items-center w-full text-[15px] h-[130px] px-[90px]  md:text-[18px]">
           Our every course are designed in a way that they are easy to <br/>follow,
           latest in market, provide you support for questions and <br/>can help you land a job.</p>
         </div>
       </div>
       </div>
-
-        <div className='flex flex-col w-[415px] mx-auto md:flex md:flex-row justify-around gap-3 md:w-[75rem]'>
-          <ul className='flex flex-col justify-center h-[220px] items-center mt-6 w-[355px] mx-auto border-2 md:h-[265px] md:w-[25%] rounded-md'>
+               <div className='md:w-full md:mx-auto '>
+        <div className='flex flex-col w-[415px] mx-auto md:flex md:flex-row justify-evenly gap-3 md:gap-3 md:w-full'>
+        <ul className='flex flex-col justify-center h-[220px] items-center mt-6 w-[355px] mx-auto border-2 md:h-[265px] rounded-md'>
             <div>
               <img src={graduation} alt='graduation-logo'/>
             </div>
@@ -53,7 +53,7 @@ export default function Welcome() {
 
 
           </ul>
-          <ul className='flex flex-col justify-center h-[220px] items-center md:h-[265px] mt-6 w-[355px] mx-auto border-2 rounded-md md:w-[25%]'>
+          <ul className='flex flex-col justify-center h-[220px] items-center md:h-[265px] mt-6  mx-auto border-2 rounded-md '>
             <div>
               <img src={certificate} alt='certificate-logo'/>
             </div>
@@ -76,7 +76,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[220px] mt-6 w-[355px] md:h-[265px] mx-auto border-2 rounded-lg md:w-[25%]'>
+          <ul className='flex flex-col justify-center items-center h-[220px] mt-6 md:h-[265px] mx-auto border-2 rounded-lg'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
             </div>
@@ -104,7 +104,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[220px] w-[355px] md:h-[265px] mx-auto mt-6 border-2 rounded-lg md:w-[25%] '>
+          <ul className='flex flex-col justify-center items-center h-[220px]  md:h-[265px] mx-auto mt-6 border-2 rounded-lg '>
             <div>
               <img src={support} alt='support-logo'/>
             </div>
@@ -130,6 +130,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
+        </div>
         </div>
 
     </>

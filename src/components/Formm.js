@@ -59,8 +59,8 @@ export default function Form() {
   };
 
   return (
-    <div className="h-[650px] w-[400px] mx-auto flex items-center justify-center md:mt-32 md:w-full">
-      <div className="bg-custom-1b1a55 p-8 w-[415px] rounded md:w-full max-w-md">
+    <div className="h-[650px] w-[400px] mx-auto flex items-center justify-center md:w-full">
+      <div className="bg-prime2 p-8 w-[415px] rounded md:w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center text-orange-600">
           Enroll Now<br/>and Get Skilled
         </h2>

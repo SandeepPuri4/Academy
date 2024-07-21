@@ -2,14 +2,17 @@ import logo from "../assests/logo3.png";
 // import call from "../assests/call2.png";
 // import timer from "../assests/timer2.png";
 // import location from '../assests/location2.png'
+import { Link } from "react-router-dom";
 
 export default function MainNavigation() {
   return (
     <>
     <div className="mx-auto md:w-full">
-      <header className=" hidden md:h-40 md:flex md:flex-row justify-around w-full mx-auto">
-          <img src={logo} alt="logo" className=" h-[70px] w-52 mx-36 mt-9 rounded-sm" />
-        <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
+      <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto">
+        <p className="h-[70px] w-[700px] my-auto ml-8">
+          <img src={logo} alt="logo" className=" h-[70px] w-52 mx-36 my-auto rounded-sm" />
+          </p>
+        {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
           <div className="flex justify-evenly mx-4 my-3 px-3 py-6">
             <p className="mt-1">
           <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="20" height="20"><path d="M23,11a1,1,0,0,1-1-1,8.008,8.008,0,0,0-8-8,1,1,0,0,1,0-2A10.011,10.011,0,0,1,24,10,1,1,0,0,1,23,11Zm-3-1a6,6,0,0,0-6-6,1,1,0,1,0,0,2,4,4,0,0,1,4,4,1,1,0,0,0,2,0Zm2.183,12.164.91-1.049a3.1,3.1,0,0,0,0-4.377c-.031-.031-2.437-1.882-2.437-1.882a3.1,3.1,0,0,0-4.281.006l-1.906,1.606A12.784,12.784,0,0,1,7.537,9.524l1.6-1.9a3.1,3.1,0,0,0,.007-4.282S7.291.939,7.26.908A3.082,3.082,0,0,0,2.934.862l-1.15,1C-5.01,9.744,9.62,24.261,17.762,24A6.155,6.155,0,0,0,22.183,22.164Z"/></svg>
@@ -42,7 +45,16 @@ export default function MainNavigation() {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
+                 <div className="w-full my-auto">
+          <ul className="hidden md:flex flex-row gap-16 justify-center items-end text-[25px] font-[60px]"> 
+        <li><a className="hover:underline hover:text-blue-950" href="/">Home</a></li>
+        <li><Link className="hover:underline hover:text-blue-950" to="/courses">Courses</Link></li>
+        <li><Link className="hover:underline hover:text-blue-950" to="/contact">Contact</Link></li>
+        <li><a className="hover:underline hover:text-blue-950" href="/">About</a></li>
+        <button className="bg-green-600  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-green-500 ">Services</button>
+      </ul>
+          </div>
       </header>
       </div>
     </>

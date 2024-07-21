@@ -13,7 +13,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'custom-1b1a55': '#1B1A55',
+        'prime1': '#070F2B',
+        'prime2': '#1B1A55',
+        'prime3': '#535C91',
+        'prime4': '#9290C3',
       },
     },
   },
