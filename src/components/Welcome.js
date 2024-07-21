@@ -28,9 +28,9 @@ export default function Welcome() {
         </div>
       </div>
       </div>
-               <div className='md:w-full md:mx-auto md:px-40 '>
-        <div className='flex flex-col w-[415px] mx-auto md:flex md:flex-row justify-evenly md:justify-around md:mx-auto gap-3 md:gap-2 md:w-full'>
-        <ul className='flex flex-col justify-center h-[220px] items-center mt-6 w-[355px] mx-auto border-2 md:h-[265px] rounded-md'>
+               <div className='md:w-full md:mx-auto md:px-20 '>
+        <div className='flex flex-col w-[415px] mx-auto md:w-full md:flex md:flex-row justify-evenly md:justify-around md:mx-auto gap-3 md:gap-2'>
+        <ul className='flex flex-col justify-center h-[220px] items-center mt-6 w-[355px] mx-auto border-2 md:h-[265px] md:w-[25%] rounded-md'>
             <div>
               <img src={graduation} alt='graduation-logo'/>
             </div>
@@ -76,7 +76,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul> */}
-          <ul className='flex flex-col justify-center items-center h-[220px] mt-6 md:h-[265px] mx-auto border-2 rounded-lg'>
+          <ul className='flex flex-col justify-center items-center h-[220px] mt-6 md:h-[265px] md:w-[25%] mx-auto border-2 rounded-lg'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
             </div>
@@ -104,7 +104,7 @@ export default function Welcome() {
             </div>
             </div>
           </ul>
-          <ul className='flex flex-col justify-center items-center h-[220px]  md:h-[265px] mx-auto mt-6 border-2 rounded-lg '>
+          <ul className='flex flex-col justify-center items-center h-[220px]  md:h-[265px] md:w-[25%] mx-auto mt-6 border-2 rounded-lg '>
             <div>
               <img src={support} alt='support-logo'/>
             </div>

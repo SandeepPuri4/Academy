@@ -50,8 +50,8 @@ export default function Courses() {
         </div>
       </div>
       
-      <div className=' mt-1 h-[415px] w-[415px] mx-auto md:h-[75rem] md:w-[75rem] md:mx-auto'>
-        <div className='hidden flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[70rem] md:flex-wrap'>
+      <div className=' mt-1 h-[415px] w-[415px] mx-auto md:h-[65rem] md:w-full md:mx-auto md:px-8'>
+        <div className='hidden flex-col h-[180rem] justify-between md:mx-10 md:px-10 md:flex md:py-2 md:flex-row md:justify-around md:h-[63rem] md:flex-wrap'>
           {courses.map((course, index) => (
             <div key={index} className='md:h-[320px] md:w-[370px]'>
               <div className='flex justify-center flex-col h-[7rem] items-start'>
