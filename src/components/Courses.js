@@ -35,12 +35,13 @@ export default function Courses() {
 
   return (
     <>
-      <div className="mt-10 mx-auto h-36 w-[415px] md:w-full md:h-72 md:mt-8">
+      <div className="mt-10 mx-auto h-36 w-[415px] md:w-full md:h-56 md:mt-16">
         <div className="flex flex-col h-36 w-[100%] px-4 md:w-full md:h-60 md:flex md:flex-col items-center ">
-          <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:mx-0">Our Best Courses</h1>
+          <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:justify-center">Our Best Courses</h1>
           <div className='w-[415px] h-24 md:hidden'>
             <p className="items-center text-[16px] px-9">Each of our courses is designed to be easy to navigate, up to date on the industry, to assist you with questions and help you find a job.</p>
           </div>
+          
           <p className="hidden md:block md:text-stone-700 text-[18px]">
             Each of our courses is designed to be easy to navigate.<br />
             up-to-date on the industry,
@@ -50,7 +51,7 @@ export default function Courses() {
       </div>
       
       <div className=' mt-1 h-[415px] w-[415px] mx-auto md:h-[75rem] md:w-[75rem] md:mx-auto'>
-        <div className='hidden flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
+        <div className='hidden flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[70rem] md:flex-wrap'>
           {courses.map((course, index) => (
             <div key={index} className='md:h-[320px] md:w-[370px]'>
               <div className='flex justify-center flex-col h-[7rem] items-start'>

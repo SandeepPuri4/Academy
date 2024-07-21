@@ -2,7 +2,7 @@
 // import location2 from '../assests/location2.png'
 // import timer2 from '../assests/timer3.png'
 import logo from '../assests/logo3.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 
 // import instagram from '../assests/instagram.png'
@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return <> 
-       <footer className="h-[630px] bg-gray-100 w-[415px] mx-auto md:h-44 md:w-full md:bg-gray-100 ">
+       <footer className="h-[750px] bg-gray-100 w-[415px] mx-auto md:h-44 md:w-full md:bg-gray-100 md:mx-auto ">
              <div className='flex flex-col justify-between h-[700px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p className='mt-5 md:mt-16'>
@@ -26,7 +26,7 @@ export default function Footer() {
           <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="20" height="20"><path d="M23,11a1,1,0,0,1-1-1,8.008,8.008,0,0,0-8-8,1,1,0,0,1,0-2A10.011,10.011,0,0,1,24,10,1,1,0,0,1,23,11Zm-3-1a6,6,0,0,0-6-6,1,1,0,1,0,0,2,4,4,0,0,1,4,4,1,1,0,0,0,2,0Zm2.183,12.164.91-1.049a3.1,3.1,0,0,0,0-4.377c-.031-.031-2.437-1.882-2.437-1.882a3.1,3.1,0,0,0-4.281.006l-1.906,1.606A12.784,12.784,0,0,1,7.537,9.524l1.6-1.9a3.1,3.1,0,0,0,.007-4.282S7.291.939,7.26.908A3.082,3.082,0,0,0,2.934.862l-1.15,1C-5.01,9.744,9.62,24.261,17.762,24A6.155,6.155,0,0,0,22.183,22.164Z"/></svg>
           </p>
                   <h5 className=' text-[18px] font-medium'>Call</h5>
-                  <p className=' text-[16px] font-light'>+917016613842 | +919537027523</p>
+                  <p className=' text-[16px] font-light'>+917016613842/ <br/>+919537027523</p>
                 </div>
               
               {/* <div className='flex flex-row justify-center mt-12 w-full items-center md:w-52 md:mt-0'> */}
@@ -47,7 +47,7 @@ export default function Footer() {
                   <p className=' text-[16px] font-light'>Mon-Fri 9Am-8Pm</p>
                 </div>
               {/* </div> */}
-              <div className='flex flex-row justify-center mt-12 md:mt-16'>
+              {/* <div className='flex flex-row justify-center mt-12 md:mt-16'>
                 
               <ul className='hidden md:block' > 
                <li><a className="font-bold text-[25px] text-green-700 md:hidden" href="/">Links</a></li>
@@ -56,7 +56,7 @@ export default function Footer() {
                <li><Link className="hover:underline font-semibold" to="/contact">Contact</Link></li>
                <li><a className="hover:underline font-semibold" href="/">About</a></li>
              </ul>
-              </div>
+              </div> */}
              </div>
            
 
