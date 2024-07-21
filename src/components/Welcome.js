@@ -1,6 +1,6 @@
 import graduation from '../assests/graduation.png'
 import flutter from '../assests/flutter.png'
-import certificate from '../assests/certificate.png'
+// import certificate from '../assests/certificate.png'
 import support from '../assests/support.png'
 
 export default function Welcome() {
@@ -28,8 +28,8 @@ export default function Welcome() {
         </div>
       </div>
       </div>
-               <div className='md:w-full md:mx-auto '>
-        <div className='flex flex-col w-[415px] mx-auto md:flex md:flex-row justify-evenly gap-3 md:gap-3 md:w-full'>
+               <div className='md:w-full md:mx-auto md:px-40 '>
+        <div className='flex flex-col w-[415px] mx-auto md:flex md:flex-row justify-evenly md:justify-around md:mx-auto gap-3 md:gap-2 md:w-full'>
         <ul className='flex flex-col justify-center h-[220px] items-center mt-6 w-[355px] mx-auto border-2 md:h-[265px] rounded-md'>
             <div>
               <img src={graduation} alt='graduation-logo'/>
@@ -53,7 +53,7 @@ export default function Welcome() {
 
 
           </ul>
-          <ul className='flex flex-col justify-center h-[220px] items-center md:h-[265px] mt-6  mx-auto border-2 rounded-md '>
+          {/* <ul className='flex flex-col justify-center h-[220px] items-center md:h-[265px] mt-6  mx-auto border-2 rounded-md '>
             <div>
               <img src={certificate} alt='certificate-logo'/>
             </div>
@@ -75,7 +75,7 @@ export default function Welcome() {
             <p className='text-[16px] pl-[130px]'>accepted.</p>
             </div>
             </div>
-          </ul>
+          </ul> */}
           <ul className='flex flex-col justify-center items-center h-[220px] mt-6 md:h-[265px] mx-auto border-2 rounded-lg'>
             <div>
               <img src={flutter} alt='flutter-logo'/>
