@@ -3,6 +3,7 @@ import rightimage from "../assests/Right2.png"
 import { useDispatch } from 'react-redux';
 import { openForm } from '../store/formSlice';
 import Form from "./Form";
+import MobileNav from "./MobileNavMenu";
 
 
 
@@ -19,8 +20,9 @@ export default function MainSection() {
          {/* <div className="h-[100px] w-[280px] mt-24 mb-1 mx-2 md:hidden">
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}
-         <div className="h-[435px] w-[415px]   bg-blue-50 md:bg-white md:h-[700px] flex mx-auto md:w-[75rem] md:mx-auto">
-          <div className="  w-[415px]  md:w-[80rem] md:flex ">
+         <MobileNav />
+         <div className="h-[435px] w-[415px] mx-auto bg-blue-50 md:bg-white md:h-[700px] flex md:w-full md:mx-auto">
+          <div className="  w-[415px]  md:w-[80rem] md:flex md:mx-auto ">
       <div className="mt-0 h-[400px] md:h-[510px] flex flex-col md:flex md:flex-row md:mt-24 ">
           <div className="mt-5 flex flex-col md:mt-14">
             <h1 className="text-[30px] text-green-950 mx-auto  font-semibold  md:text-[70px] md:w-[650px]">Get Skilled & Boost</h1>
@@ -50,7 +52,7 @@ export default function MainSection() {
        </div>
 
 
-        <div className=" hidden md:block md:w-[40rem]">
+        <div className=" hidden md:block md:w-full">
         <div className="hidden md:block items-center">
           <img src={rightimage} alt="rightsideimage"/>
       </div>
@@ -64,5 +66,3 @@ export default function MainSection() {
 }
 
 
-
-// sandeep puri goswami son of ganesh puri goswami.......

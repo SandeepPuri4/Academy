@@ -13,13 +13,13 @@ const MobileNav = () => {
 
   return (
     <>
-    <div className='md:hidden flex justify-between w-[415px] h-28 bg-blue-50  '>
-     <div className=" mb-1 mx-2 py-3 md:hidden">
+    <div className='md:hidden flex justify-between w-[415px] mx-auto h-28 bg-blue-50  '>
+     <div className=" mb-1 mx-2 py-4 md:hidden">
           <img src={logo} alt="logo" className=" rounded-sm h-[55px] w-[155px] my-3"/>
          </div> 
-    <div className="relative h-20 w-[155px] mt-2 py-2 ml-2 items-center flex overflow-hidden md:hidden"> 
+    <div className="relative h-20 w-[250px] mt-2 py-3 ml-2 items-center flex overflow-hidden md:hidden"> 
       <button
-        className="text-3xl absolute right-4 z-20 bg-transparent border-none"
+        className="text-3xl absolute right-2 z-20 bg-transparent border-none"
         onClick={toggleSidebar}
       >
         ☰
