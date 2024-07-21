@@ -35,7 +35,7 @@ export default function Courses() {
 
   return (
     <>
-      <div className="mt-7 h-36 w-[415px] md:w-full md:h-72 md:mt-8">
+      <div className="mt-10 mx-auto h-36 w-[415px] md:w-full md:h-72 md:mt-8">
         <div className="flex flex-col h-36 w-[100%] px-4 md:w-full md:h-60 md:flex md:flex-col items-center ">
           <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:mx-0">Our Best Courses</h1>
           <div className='w-[415px] h-24 md:hidden'>
@@ -49,7 +49,7 @@ export default function Courses() {
         </div>
       </div>
       
-      <div className=' mt-1 h-[415px] w-[415px] md:h-[75rem] md:w-[75rem] md:mx-auto'>
+      <div className=' mt-1 h-[415px] w-[415px] mx-auto md:h-[75rem] md:w-[75rem] md:mx-auto'>
         <div className='hidden flex-col h-[180rem] justify-between md:flex md:flex-row md:justify-around md:h-[80rem] md:flex-wrap'>
           {courses.map((course, index) => (
             <div key={index} className='md:h-[320px] md:w-[370px]'>

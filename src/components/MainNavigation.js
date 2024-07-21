@@ -6,7 +6,7 @@ import logo from "../assests/logo3.png";
 export default function MainNavigation() {
   return (
     <>
-    <div className="mx-auto">
+    <div className="mx-auto md:w-full">
       <header className=" hidden md:h-40 md:flex md:flex-row justify-around w-full mx-auto">
           <img src={logo} alt="logo" className=" h-[70px] w-52 mx-36 mt-9 rounded-sm" />
         <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
