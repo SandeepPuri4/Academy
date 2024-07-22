@@ -13,7 +13,7 @@ import logo from '../assests/logo3.png'
 
 export default function Footer() {
   return <> 
-       <footer className="h-[600px] bg-gray-100 w-[415px] mx-auto md:h-44 md:w-full md:bg-gray-100 md:mx-auto ">
+       <footer className="h-[600px] bg-gray-100 w-[415px] mt-2 mx-auto md:h-44 md:w-full md:bg-gray-100 md:mx-auto ">
              <div className='flex flex-col justify-between h-[600px] md:flex md:flex-row md:justify-around md:h-52'>
            <div className='flex flex-row justify-center'>
             <p className='mt-5 md:mt-16'>

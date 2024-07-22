@@ -2,6 +2,8 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateFormData, resetFormData, closeForm } from '../store/formSlice';
 
+
+
 export default function Form() {
   const dispatch = useDispatch();
   const formData = useSelector((state) => state.form.formData);
@@ -52,58 +54,80 @@ export default function Form() {
 
   if (!isOpen) return null;
 
+
+
+
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-prime2 p-4 rounded w-full max-w-sm">
-        <h2 className="text-2xl font-bold mb-4 text-center text-white">
+      <div className="bg-prime2 p-4 rounded w-full max-w-sm md:max-w-lg lg:max-w-xl">
+        <h2 className="text-2xl font-bold mb-4 text-center text-orange-600">
           Enroll Now<br />
           and Get Skilled
         </h2>
+        <p className="text-md font-bold text-center mb-2 text-white">Please fill the below form and we will get back to you!</p>
         <form method="POST" onSubmit={submitData} className="space-y-4">
-          <div>
-            <label htmlFor="name" className="block text-white text-sm font-medium">
-              Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-              value={formData.name}
-              onChange={handleChange}
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              required
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="name" className="block text-white text-sm font-medium">
+                Name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                value={formData.name}
+                onChange={handleChange}
+                className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-white text-sm font-medium">
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter email address"
+                value={formData.email}
+                onChange={handleChange}
+                className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                required
+              />
+            </div>
           </div>
-          <div>
-            <label htmlFor="email" className="block text-white text-sm font-medium">
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter email address"
-              value={formData.email}
-              onChange={handleChange}
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="contact" className="block text-white text-sm font-medium">
-              Contact
-            </label>
-            <input
-              type="text"
-              name="contact"
-              id="contact"
-              placeholder="Enter your contact details"
-              value={formData.contact}
-              onChange={handleChange}
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              required
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="contact" className="block text-white text-sm font-medium">
+                Contact
+              </label>
+              <input
+                type="text"
+                name="contact"
+                id="contact"
+                placeholder="Enter your contact details"
+                value={formData.contact}
+                onChange={handleChange}
+                className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="coupon" className="block text-white text-sm font-medium">
+                Coupon Code
+              </label>
+              <input
+                type="text"
+                name="coupon"
+                id="coupon"
+                placeholder="optional"
+                value={formData.coupon}
+                onChange={handleChange}
+                className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              />
+            </div>
           </div>
           <div>
             <label htmlFor="description" className="block text-white text-sm font-medium">
@@ -122,7 +146,7 @@ export default function Form() {
           <div>
             <button
               type="submit"
-              className="w-full bg-orange-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-indigo-600 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
+              className="w-full bg-org1 text-white py-2 px-4 rounded-md shadow-md hover:bg-orange-600 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
             >
               Submit
             </button>
@@ -138,4 +162,7 @@ export default function Form() {
       </div>
     </div>
   );
+  
 }
+
+

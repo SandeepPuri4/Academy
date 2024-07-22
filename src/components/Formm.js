@@ -59,11 +59,12 @@ export default function Form() {
   };
 
   return (
-    <div className="h-[650px] w-[400px] mx-auto flex items-center justify-center md:w-full lg:w-[800px] xl:w-[1000px]">
+    <div className="h-[700px] w-[400px] mx-auto flex items-center justify-center md:w-full lg:w-[800px] xl:w-[1000px]">
   <div className="bg-prime2 p-8 w-[415px] rounded md:w-full lg:w-full xl:w-full max-w-md lg:max-w-none">
     <h2 className="text-2xl font-bold mb-6 text-center text-orange-600">
       Enroll Now<br/>and Get Skilled
     </h2>
+    <p className="text-md font-bold text-center mb-2 text-white">Please fill the below form and we will get back to you!</p>
     <form method='POST' onSubmit={submitData} className="space-y-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
@@ -135,7 +136,7 @@ export default function Form() {
       <div className="">
         <button
           type="submit"
-          className="w-full justify-center bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-500 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
+          className="w-full justify-center bg-org1 text-white py-2 px-4 rounded-md hover:bg-orange-500 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
         >
           Submit
         </button>
@@ -145,4 +146,4 @@ export default function Form() {
 </div>
 
   );
-}  
+} 
