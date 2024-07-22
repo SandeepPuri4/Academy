@@ -8,9 +8,9 @@ export default function MainNavigation() {
   return (
     <>
     <div className="mx-auto md:w-full">
-      <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto">
-        <p className="h-[70px] w-[700px] my-auto ml-8">
-          <img src={logo} alt="logo" className=" h-[70px] w-52 mx-36 my-auto rounded-sm" />
+      <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto md:px-4">
+        <p className="h-[70px] lg:w-[700px] md:w-[330px] my-auto lg:ml-8 md:ml-">
+          <img src={logo} alt="logo" className=" h-[70px] w-52 lg:mx-36 md:mx-5 lg:my-auto object-cover rounded-sm" />
           </p>
         {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
           <div className="flex justify-evenly mx-4 my-3 px-3 py-6">
@@ -47,7 +47,7 @@ export default function MainNavigation() {
           </div>
         </div> */}
                  <div className="w-full my-auto">
-          <ul className="hidden md:flex flex-row gap-16 justify-center items-end text-[25px] font-[60px]"> 
+          <ul className="hidden md:flex flex-row md:gap-10 lg:gap-16 justify-center items-end md:text-[25px] lg:text-[23px] font-[60px]"> 
         <li><a className="hover:underline hover:text-blue-950" href="/">Home</a></li>
         <li><Link className="hover:underline hover:text-blue-950" to="/courses">Courses</Link></li>
         <li><Link className="hover:underline hover:text-blue-950" to="/contact">Contact</Link></li>

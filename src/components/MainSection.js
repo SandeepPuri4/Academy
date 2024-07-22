@@ -21,12 +21,12 @@ export default function MainSection() {
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}
          <MobileNav />
-         <div className="h-[435px] w-[415px] mx-auto bg-blue-50 md:bg-white md:h-[600px] flex md:w-full md:mx-auto md:py-3">
-          <div className="  w-[415px]  md:w-[80rem] md:flex md:mx-auto ">
-      <div className="mt-0 h-[400px] md:h-[550px] flex flex-col md:flex md:flex-row md:py-14 md:px-2">
-          <div className="mt-5 flex flex-col md:mt-14">
-            <h1 className="text-[30px] text-prime1 mx-auto  font-semibold  md:text-[60px] md:w-full md:px-5">Get Skilled & Boost</h1>
-            <h1  className="text-[30px] mx-auto text-prime1 font-semibold  md:text-[60px] md:w-full md:mx-auto md:px-28">Your Career</h1>
+         <div className="h-[435px] w-[415px] mx-auto bg-blue-50 md:bg-white md:h-[600px] flex md:w-full lg:w-full md:mx-auto md:py-3">
+          <div className="  w-[415px]  md:w-[80rem] md:flex md:mx-auto lg:mx-auto ">
+      <div className="mt-0 h-[400px] md:h-[550px] flex flex-col md:flex md:flex-row md:py-14 md:px-2 md:w-[50%]">
+          <div className="mt-5 flex flex-col md:mt-14 md:w-full lg:w-full">
+            <h1 className="text-[30px] text-prime1 mx-auto  font-semibold  lg:text-[55px] md:text-[50px] md:w-full lg:px-7 md:px-6">Get Skilled & Boost</h1>
+            <h1  className="text-[30px] mx-auto text-prime1 font-semibold  lg:text-[55px] md:text-[50px] md:w-full md:mx-auto lg:px-28 md:px-28">Your Career</h1>
             <div className="block md:hidden">
             <div className=" w-[415px] mt-6 h-[180px] md:hidden">
               <p className="text-[16px] px-10">Enroll in our programs built with top university</p> 
@@ -38,13 +38,13 @@ export default function MainSection() {
               <p className="text-[16px] px-40">career goals.</p>
             </div>
             </div>
-            <div className="hidden md:block mx-auto px-4">
-            <div className="hidden md:block md:w-[650px] mt-2 mx-auto">
+            <div className="hidden md:block mx-auto lg:px-4">
+            <div className="hidden md:block md:w-full md:px-6 mt-1 mx-auto">
               
             <p className="text-[16px]">Enroll in our programs built with top university and industry partners, with dedicated mentorship and expert career guidance.,We partner with companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals.</p>
             </div>
             </div>
-            <div className=" mt-8 w-full mx-auto px-[122px] md:mt-6 md:px-8 md:mx-16">
+            <div className=" mt-8 w-full mx-auto px-[122px] md:mt-6 lg:px-8 md:px-36 lg:mx-16 md:mx-auto">
               <button onClick={enquiryHandler} className="bg-green-600  mt-0 text-white px-7 py-2 rounded-3xl hover:bg-green-500] hover:bg-green-500 ">ENQUIRY NOW</button>
             </div>
             <Form />
@@ -52,9 +52,9 @@ export default function MainSection() {
        </div>
 
 
-        <div className=" hidden md:block md:w-full md:h-[550px]">
-        <div className="hidden md:block items-center h-full mx-auto px-4">
-          <img src={rightimage} className="w-[550px] h-full items-center justify-center" alt="rightsideimage"/>
+        <div className=" hidden md:block md:w-[50%] md:h-[450px] lg:h-[500px] object-cover md:px-7 lg:px-20 lg:py-2 md:py-2">
+        <div className="hidden md:block items-center h-full mx-auto">
+          <img src={rightimage} className="w-[500px] h-full items-center justify-center object-cover" alt="rightsideimage"/>
       </div>
       </div>
         </div>
