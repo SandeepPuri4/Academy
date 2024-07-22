@@ -17,6 +17,7 @@ module.exports = {
         'prime2': '#1B1A55',
         'prime3': '#535C91',
         'prime4': '#9290C3',
+        'org1': '#db4729',
       },
     },
   },
