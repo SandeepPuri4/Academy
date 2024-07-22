@@ -25,8 +25,8 @@ export default function MainSection() {
           <div className="  w-[415px]  md:w-[80rem] md:flex md:mx-auto lg:mx-auto ">
       <div className="mt-0 h-[400px] md:h-[550px] flex flex-col md:flex md:flex-row md:py-14 md:px-2 md:w-[50%]">
           <div className="mt-5 flex flex-col md:mt-14 md:w-full lg:w-full">
-            <h1 className="text-[30px] text-prime1 mx-auto  font-semibold  lg:text-[55px] md:text-[50px] md:w-full lg:px-7 md:px-3">Get Skilled & Boost</h1>
-            <h1  className="text-[30px] mx-auto text-prime1 font-semibold  lg:text-[55px] md:text-[50px] md:w-full md:mx-auto lg:px-28 md:px-20">Your Career</h1>
+            <h1 className="text-[30px] text-prime1 mx-auto  font-semibold  xl:text-[55px] md:text-[40px] md:w-full lg:px-7 md:px-1 md:ml-8">Get Skilled & Boost</h1>
+            <h1  className="text-[30px] mx-auto text-prime1 font-semibold  xl:text-[55px] md:text-[40px] md:w-full md:mx-auto lg:px-28 md:px-16 md:ml-4">Your Career</h1>
             <div className="block md:hidden">
             <div className=" w-[415px] mt-6 h-[180px] md:hidden">
               <p className="text-[16px] px-10">Enroll in our programs built with top university</p> 
@@ -39,7 +39,7 @@ export default function MainSection() {
             </div>
             </div>
             <div className="hidden md:block mx-auto lg:px-4">
-            <div className="hidden md:block md:w-full md:px-6 mt-1 mx-auto">
+            <div className="hidden md:block md:w-full md:px-6 mt-1 mx-auto md:ml-5">
               
             <p className="text-[16px]">Enroll in our programs built with top university and industry partners, with dedicated mentorship and expert career guidance.,We partner with companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals.</p>
             </div>

@@ -22,9 +22,10 @@ export default function Welcome() {
           
           </div>
         <div className='hidden md:block w-full px-8'>
-        <p className="items-center w-full text-[15px] h-[130px] px-[90px]  md:text-[18px]">
+        <p className="items-center w-full text-[15px] h-[52px] px-[90px]  md:text-[18px]">
           Our every course are designed in a way that they are easy to <br/>follow,
-          latest in market, provide you support for questions and <br/>can help you land a job.</p>
+          latest in market, provide you support for questions and</p>
+        <p className="items-center w-full text-[15px] px-[230px]  md:text-[18px]">can help you land a job.</p>
         </div>
       </div>
       </div>
