@@ -7,9 +7,9 @@ import { Link } from "react-router-dom"
 
 export default function Navigation() {
   return <>
-         <div className="hidden md:flex justify-around md:w-full">
+         <div className="hidden lg:flex justify-around lg:w-full">
           <div>
-          <ul className="hidden md:flex flex-row gap-16 justify-center items-center text-[20px] font-[60px]"> 
+          <ul className="hidden lg:flex flex-row gap-16 justify-center items-center text-[20px] font-[60px]"> 
         <li><a className="hover:underline hover:text-blue-950" href="/">Home</a></li>
         <li><Link className="hover:underline hover:text-blue-950" to="/courses">Courses</Link></li>
         <li><Link className="hover:underline hover:text-blue-950" to="/contact">Contact</Link></li>

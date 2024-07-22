@@ -37,12 +37,12 @@ export default function Courses() {
     <>
       <div className="mt-10 mx-auto h-36 w-[415px] md:w-full md:h-56 md:mt-16">
         <div className="flex flex-col h-36 w-[100%] px-4 md:w-full md:h-60 md:flex md:flex-col items-center ">
-          <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold md:text-[65px] md:justify-center">Our Best Courses</h1>
+          <h1 className="font-semibold text-[30px] mx-auto text-green-950 md:font-bold lg:text-[55px] md:text-[52px] md:justify-center">Our Best Courses</h1>
           <div className='w-[415px] h-24 md:hidden'>
             <p className="items-center text-[16px] px-9">Each of our courses is designed to be easy to navigate, up to date on the industry, to assist you with questions and help you find a job.</p>
           </div>
           
-          <p className="hidden md:block md:text-stone-700 text-[18px]">
+          <p className="hidden md:block md:text-stone-700 text-[18px] ">
             Each of our courses is designed to be easy to navigate.<br />
             up-to-date on the industry,
             to assist you with questions and <br /> to help you find a job.
@@ -50,8 +50,9 @@ export default function Courses() {
         </div>
       </div>
       
-      <div className=' mt-1 h-[415px] w-[415px] mx-auto md:h-[65rem] md:w-full md:mx-auto md:px-8'>
-        <div className='hidden flex-col h-[180rem] justify-between md:mx-10 md:px-10 md:flex md:py-2 md:flex-row md:justify-around md:h-[63rem] md:flex-wrap'>
+      <div className=' mt-1 h-[415px] w-[415px] mx-auto lg:h-[65rem] md:h-[105rem] md:w-full lg:w-full lg:mx-auto'>
+        <div className='lg:w-full lg:mx-auto'>
+        <div className='hidden flex-col h-[180rem] justify-between lg:px-32 md:flex md:px-2 md:py-2 md:flex-row md:justify-around lg:h-[63rem] md:h-[104rem] lg:w-full md:w-full md:flex-wrap'>
           {courses.map((course, index) => (
             <div key={index} className='md:h-[320px] md:w-[370px]'>
               <div className='flex justify-center flex-col h-[7rem] items-start'>
@@ -64,7 +65,9 @@ export default function Courses() {
                 </p>
               </div>
             </div>
+          
           ))}
+          </div>
         </div>
         <div className='md:hidden'>
           <Slider {...settings}>
