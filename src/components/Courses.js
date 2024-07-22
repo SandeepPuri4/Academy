@@ -35,7 +35,7 @@ export default function Courses() {
 
   return (
     <>
-      <div className="mt-10 mx-auto h-36 w-[415px] md:w-full md:h-44 xl:h-48 md:mt-20">
+      <div className="mt-20 mx-auto h-36 w-[415px] md:w-full md:h-44 xl:h-48 md:mt-20">
         <div className="flex flex-col h-36 w-[100%] px-4 md:w-full md:h-60 md:flex md:flex-col items-center ">
           <h1 className="font-semibold text-[30px] mx-auto text-center text-green-950 md:font-bold lg:text-[55px] md:text-[52px] md:justify-center">Our Best Courses</h1>
           <div className='w-[415px] h-72 md:hidden'>
@@ -53,7 +53,7 @@ export default function Courses() {
         </div>
       </div>
       
-      <div className=' mt-1 h-[415px] w-[415px] mx-auto lg:h-[100rem] xl:h-[65rem] md:h-[105rem] md:w-full lg:w-full lg:mx-auto'>
+      <div className=' h-[415px] w-[415px] mx-auto lg:h-[100rem] xl:h-[65rem] md:h-[105rem] md:w-full lg:w-full lg:mx-auto'>
         <div className='lg:w-full lg:mx-auto'>
         <div className='hidden flex-col h-[180rem] justify-between lg:px-32 md:flex md:px-2 md:py-2 md:flex-row md:justify-around lg:h-[63rem] md:h-[104rem] lg:w-full md:w-full md:flex-wrap'>
           {courses.map((course, index) => (

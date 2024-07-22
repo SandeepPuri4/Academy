@@ -59,7 +59,7 @@ export default function Form() {
   };
 
   return (
-    <div className="h-[700px] w-[400px] mx-auto flex items-center justify-center md:w-full lg:w-[800px] xl:w-[1000px]">
+    <div className=" mt-6 h-[700px] w-[400px] mx-auto flex items-center justify-center md:w-full lg:w-[800px] xl:w-[1000px]">
   <div className="bg-prime2 p-8 w-[415px] rounded md:w-full lg:w-full xl:w-full max-w-md lg:max-w-none">
     <h2 className="text-2xl font-bold mb-6 text-center text-orange-600">
       Enroll Now<br/>and Get Skilled
