@@ -54,7 +54,7 @@ export default function Form() {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-purple-700 p-4 rounded shadow-md w-full max-w-sm">
+      <div className="bg-prime2 p-4 rounded w-full max-w-sm">
         <h2 className="text-2xl font-bold mb-4 text-center text-white">
           Enroll Now<br />
           and Get Skilled
@@ -107,7 +107,7 @@ export default function Form() {
           </div>
           <div>
             <label htmlFor="description" className="block text-white text-sm font-medium">
-              Description
+              Message
             </label>
             <textarea
               name="description"
@@ -122,7 +122,7 @@ export default function Form() {
           <div>
             <button
               type="submit"
-              className="w-full bg-green-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-indigo-600 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
+              className="w-full bg-orange-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-indigo-600 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-opacity-75"
             >
               Submit
             </button>
@@ -130,7 +130,7 @@ export default function Form() {
           <button
             type="button"
             onClick={() => dispatch(closeForm())}
-            className="mt-2 text-white"
+            className="mt-2 text-orange-600"
           >
             Close
           </button>

@@ -8,9 +8,9 @@ export default function MainNavigation() {
   return (
     <>
     <div className="mx-auto md:w-full">
-      <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto md:px-4">
-        <p className="h-[70px] lg:w-[700px] md:w-[330px] my-auto lg:ml-8 md:ml-">
-          <img src={logo} alt="logo" className=" h-[70px] w-52 lg:mx-36 md:mx-5 lg:my-auto object-cover rounded-sm" />
+      <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto lg:px-4 md:px-0">
+        <p className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto  md:ml-6 object-cover md:items-start">
+          <img src={logo} alt="logo" className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28 " />
           </p>
         {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
           <div className="flex justify-evenly mx-4 my-3 px-3 py-6">
