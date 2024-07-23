@@ -24,7 +24,7 @@ export default function MainSection() {
           <img src={logo} alt="logo" className="h-[80px] rounded-sm"/>
          </div> */}
          <MobileNav />
-         <div className="h-[435px] w-[415px]  mx-auto bg-prime2 md:bg-prime2 md:text-white md:h-[600px] flex md:w-full lg:w-full md:mx-auto md:py-3">
+         <div className="h-[435px] w-[415px]  mx-auto   md:text-white md:h-[600px] flex md:w-full lg:w-full md:mx-auto md:py-3">
           <div className="  w-[415px]  md:w-[80rem] md:flex md:mx-auto lg:mx-auto ">
       <div className="mt-0 h-[400px] md:h-[550px] flex flex-col md:flex md:flex-row md:py-14 md:px-2 md:w-[50%]">
           <div className="mt-5 flex flex-col md:mt-14 md:w-full lg:w-full">
