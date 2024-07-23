@@ -59,7 +59,7 @@ export default function Form() {
   };
 
   return (
-    <div className="mt-1 md:mt-0 py-0 md:py-7 mx-1  flex flex-col items-center justify-center">
+    <div className="mt-1 md:mt-0 py-0 md:py-7 mx-2  flex flex-col items-center justify-center">
     <div className="w-full max-w-md md:max-w-3xl lg:max-w-4xl xl:max-w-6xl flex flex-col md:flex-row gap-4 md:gap-6">
                     {/* Form Section */}
       <div className="bg-prime1 p-8 rounded-lg w-full flex-1 shadow-lg border border-gray-50">
