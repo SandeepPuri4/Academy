@@ -1,4 +1,4 @@
-import logo from "../assests/logo3.png";
+import logo from "../assests/whiteLogo.png";
 // import call from "../assests/call2.png";
 // import timer from "../assests/timer2.png";
 // import location from '../assests/location2.png'
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function MainNavigation() {
   return (
     <>
-    <div className="mx-auto md:w-full">
+    <div className="mx-auto bg-prime2 text-white md:w-full">
       <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto lg:px-4 md:px-0">
         <p className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto  md:ml-6 object-cover md:items-start">
           <img src={logo} alt="logo" className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28 " />
@@ -48,11 +48,11 @@ export default function MainNavigation() {
         </div> */}
                  <div className="w-full my-auto">
           <ul className="hidden md:flex flex-row md:gap-10 lg:gap-16 justify-center items-end md:text-[25px] lg:text-[23px] font-[60px]"> 
-        <li><a className="hover:underline hover:text-blue-950" href="/">Home</a></li>
-        <li><Link className="hover:underline hover:text-blue-950" to="/courses">Courses</Link></li>
-        <li><Link className="hover:underline hover:text-blue-950" to="/contact">Contact</Link></li>
-        <li><a className="hover:underline hover:text-blue-950" href="/">About</a></li>
-        <button className="bg-green-600  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-green-500 ">Services</button>
+        <li><a className="hover:underline hover:text-org1" href="/">Home</a></li>
+        <li><Link className="hover:underline hover:text-org1" to="/courses">Courses</Link></li>
+        <li><Link className="hover:underline hover:text-org1" to="/contact">Contact</Link></li>
+        <li><a className="hover:underline hover:text-org1" href="/">About</a></li>
+        <button className="bg-org1  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-orange-600 ">Services</button>
       </ul>
           </div>
       </header>

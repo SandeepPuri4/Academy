@@ -11,27 +11,24 @@
 // // import router from "./components/Router";
 // // import { RouterProvider } from "react-router-dom";
 
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
-
-
-
+import Wrapper from "./components/Wrapper";
 
 const router = createBrowserRouter([
-  {path: "/", element: <Home />},
-  {path: "/courses", element: <CoursesPage />},
-  {path: "/contact", element: <ContactPage />},
-])
-
-
+  { path: "/", element: <Home /> },
+  { path: "/courses", element: <CoursesPage /> },
+  { path: "/contact", element: <ContactPage /> },
+]);
 
 function App() {
-  
-  return <>
-        <RouterProvider router={router} />
-  </>
+  return (
+    <Wrapper>
+      <RouterProvider router={router} />
+    </Wrapper>
+  );
 }
 
 export default App;

@@ -19,6 +19,9 @@ module.exports = {
         'prime4': '#9290C3',
         'org1': '#db4729',
       },
+      colors: {
+        org1: '#db4729', // Your custom color code
+      },
     },
   },
   plugins: [],
