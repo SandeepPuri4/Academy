@@ -1,0 +1,14 @@
+/* slider.css */
+
+.slick-dots {
+  bottom: /* Adjust this value to position dots as needed */
+}
+
+.slick-dots li button:before {
+  font-size: 8px; /* Size of the dots */
+  color: #fff; /* Color of the dots (default) */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff007a; /* Color of the active dot */
+}

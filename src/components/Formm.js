@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Slider.css';
+
 
 export default function Form() {
   const [formData, setFormData] = useState({
