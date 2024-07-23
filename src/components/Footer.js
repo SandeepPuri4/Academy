@@ -54,7 +54,7 @@ export default function Footer() {
 
        </footer> */}
 
-<footer className="bg-prime1 text-white py-12 mt-14 md:mt-0">
+<footer className="bg-prime1 border-t border-gray-50 text-white py-12 mt-14 md:mt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Section - Company Logo and Google Map */}
@@ -82,9 +82,9 @@ export default function Footer() {
   <ul>
     <li>
       Phone:<br />
-      <a href="tel:+7016270941" className="underline" >7016270941</a> / <a href="tel:+7016613842" className="underline">7016613842</a>
+      <a href="tel:+7016270941" className="hover:text-org1" >7016270941</a> / <a href="tel:+7016613842" className="hover:text-org1">7016613842</a>
     </li>
-    <li>Email: <a href="mailto:info@example.com" className="underline">info@example.com</a></li>
+    <li >Email: <a href="mailto:info@example.com" className="hover:text-org1">futuredevacademy@gmail.com</a></li>
   </ul>
 </div>
 

@@ -6,7 +6,7 @@ import support from '../assests/support.png'
 export default function Welcome() {
   return (
     <>
-    <div className="mt-5 w-[415px] bg-prime2 mx-auto md:w-full md:h-[180px] md:mt-1 ">
+    <div className="mt-5 w-[415px]  mx-auto md:w-full md:h-[180px] md:mt-1 ">
       <div className="flex flex-col h-40  md:h-52 md:flex md:flex-col justify- items-center md:w-[750px] mx-auto ">
         <h1 className="font-semibold text-[30px] text-center text-org1 md:font-bold lg:text-[50px] md:text-[50px] md:w-[95%] md:px-20 lg:px-16 px-8">Welcome To FutureDev</h1>
         <div className='w-[405px] mx-3 md:hidden md:h-40 '>
