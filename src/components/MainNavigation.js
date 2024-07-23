@@ -48,10 +48,10 @@ export default function MainNavigation() {
         </div> */}
                  <div className="w-full my-auto">
           <ul className="hidden md:flex flex-row md:gap-10 lg:gap-16 justify-center items-end md:text-[25px] lg:text-[23px] font-[60px]"> 
-        <li><a className="hover:underline hover:text-org1" href="/">Home</a></li>
-        <li><Link className="hover:underline hover:text-org1" to="/courses">Courses</Link></li>
-        <li><Link className="hover:underline hover:text-org1" to="/contact">Contact</Link></li>
-        <li><a className="hover:underline hover:text-org1" href="/">About</a></li>
+        <li><a className=" hover:text-org1" href="/">Home</a></li>
+        <li><Link className=" hover:text-org1" to="/courses">Courses</Link></li>
+        <li><Link className=" hover:text-org1" to="/contact">Contact</Link></li>
+        <li><a className=" hover:text-org1" href="/">About</a></li>
         <button className="bg-org1  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-orange-600 ">Services</button>
       </ul>
           </div>
