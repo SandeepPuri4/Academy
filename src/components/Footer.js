@@ -54,15 +54,15 @@ export default function Footer() {
 
        </footer> */}
 
-<footer className="bg-prime1 text-white py-12 mt-14">
+<footer className="bg-prime1 text-white py-12 mt-14 md:mt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Section - Company Logo and Google Map */}
-          <div className="flex flex-col mb-8 md:mb-0 md:w-1/3">
-            <div className="flex items-center mb-4">
-              <img className="h-10 w-auto" src={logo} alt="Company Logo" />
+          <div className="flex flex-col mb-8  md:w-1/3">
+            <div className="flex items-center mb-4 md:mb-0 md:mt-10">
+              <img className="h-10 w-auto md:h-16" src={logo} alt="Company Logo" />
             </div>
-            <div className="aspect-w-16 aspect-h-9 mb-4">
+            <div className="aspect-w-16 aspect-h-9 mb-4 md:hidden">
               <iframe
                 className="w-[70%] h-full"
                 title="futureDev Academy"
@@ -82,9 +82,9 @@ export default function Footer() {
   <ul>
     <li>
       Phone:<br />
-      <a href="tel:+7016270941">7016270941</a> / <a href="tel:+7016613842">7016613842</a>
+      <a href="tel:+7016270941" className="underline" >7016270941</a> / <a href="tel:+7016613842" className="underline">7016613842</a>
     </li>
-    <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+    <li>Email: <a href="mailto:info@example.com" className="underline">info@example.com</a></li>
   </ul>
 </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
     At Our Academy, we are dedicated to providing top-notch education and training in various fields. 
   </p>
   <ul className="flex flex-row justify-evenly my-6">
-  <li>
+  <li className="transition-transform duration-300 hover:scale-110">
     <a href="https://www.instagram.com/futuredev_academy" target="_blank" rel="noopener noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" height="25" width="25" strokeWidth="1">
         <g id="instagram-logo">
@@ -144,7 +144,7 @@ export default function Footer() {
     </a>
   </li>
 
-  <li>
+  <li className="transition-transform duration-300 hover:scale-110">
     <a href="https://www.facebook.com/profile.php?id=61560387369650" target="_blank" rel="noopener noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" height="25" width="25" strokeWidth="1">
         <g id="facebook-2--media-facebook-social">

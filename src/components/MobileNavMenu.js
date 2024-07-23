@@ -1,4 +1,4 @@
-import logo from '../assests/logo3.png'
+import logo from '../assests/whiteLogo.png'
 import { Link } from 'react-router-dom';
 
 
@@ -13,7 +13,7 @@ const MobileNav = () => {
 
   return (
     <>
-    <div className='md:hidden flex justify-between w-[415px] mx-auto h-28 bg-blue-50  '>
+    <div className='md:hidden flex justify-between w-[415px] mx-auto h-28 bg-prime2  '>
      <div className=" mb-1 mx-2 py-4 md:hidden">
           <img src={logo} alt="logo" className=" rounded-sm h-[55px] w-[155px] my-3"/>
          </div> 
