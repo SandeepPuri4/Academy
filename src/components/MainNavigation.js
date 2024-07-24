@@ -10,6 +10,7 @@ export default function MainNavigation() {
     <div className="mx-auto  text-white md:w-full">
       <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto lg:px-4 md:px-0">
         <p className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto  md:ml-6 object-cover md:items-start">
+          
           <img src={logo} alt="logo" className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28 " />
           </p>
         {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
@@ -52,7 +53,7 @@ export default function MainNavigation() {
         <li><Link className=" hover:text-org1" to="/courses">Courses</Link></li>
         <li><Link className=" hover:text-org1" to="/contact">Contact</Link></li>
         <li><Link className=" hover:text-org1" to="/about">About</Link></li>
-        <button className="bg-org1  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-orange-600 ">Services</button>
+        {/* <button className="bg-org1  mt-0 text-white px-4 py-1 rounded-3xl hover:bg-orange-600 ">Services</button> */}
       </ul>
           </div>
       </header>
