@@ -55,7 +55,7 @@ export default function Footer() {
        </footer> */}
 
 <footer className="bg-prime1 border-t border-gray-50 text-white py-12 mt-14 md:mt-0">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="md:w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Section - Company Logo and Google Map */}
           <div className="flex flex-col mb-8  md:w-1/3">
