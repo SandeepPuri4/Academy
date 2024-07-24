@@ -13,7 +13,7 @@ export default function MainNavigation() {
       <img
         src={logo}
         alt="logo"
-        className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28"
+        className=" mt-2 xl:w-[190px]  xl:mx-28"
       />
     </Link>
         {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
