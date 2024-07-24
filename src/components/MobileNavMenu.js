@@ -14,9 +14,9 @@ const MobileNav = () => {
   return (
     <>
     <div className='md:hidden flex justify-between w-[415px] mx-auto h-28   '>
-     <div className=" mb-1 mx-2 py-4 md:hidden">
+     <Link to="/" className=" mb-1 mx-2 py-4 md:hidden">
           <img src={logo} alt="logo" className=" rounded-sm w-[150px]  my-3"/>
-         </div> 
+         </Link> 
     <div className="relative h-20 w-[250px] mt-2 py-3 ml-2 items-center flex overflow-hidden md:hidden"> 
       <button
         className="text-3xl absolute right-2 z-20 bg-transparent border-none text-white"
