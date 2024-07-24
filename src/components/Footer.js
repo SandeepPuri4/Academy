@@ -2,6 +2,7 @@
 // import location2 from '../assests/location2.png'
 // import timer2 from '../assests/timer3.png'
 // import logo from '../assests/logo3.png'
+import { Link } from "react-router-dom"
 import logo from "../assests/whiteLogo.png"
 // import { Link } from 'react-router-dom'
 
@@ -59,9 +60,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Section - Company Logo and Google Map */}
           <div className="flex flex-col mb-8  md:w-1/3">
-            <div className="flex items-center mb-4 md:mb-0 md:mt-10">
+            <Link to="/" className="flex items-center mb-4 md:mb-0 md:mt-10">
               <img className=" w-[150px]" src={logo} alt="Company Logo" />
-            </div>
+            </Link>
             <div className="aspect-w-16 aspect-h-9 mb-4 md:hidden">
               <iframe
                 className="w-[70%] h-full"
