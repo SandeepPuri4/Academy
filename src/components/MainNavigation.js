@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 export default function MainNavigation() {
   return (
     <>
-    <div className="mx-auto  text-white md:w-full">
+    <div className=" md:mx-4 text-white md:w-full">
       <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto lg:px-4 md:px-0">
-      <Link to="/" className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto md:ml-6 object-cover md:items-start">
+      <Link to="/" className="h-[70px] w-[30%] lg:w-[390px] xl:w-[700px] md:w-[220px] my-auto md:mx-auto object-cover md:items-start">
       <img
         src={logo}
         alt="logo"
@@ -50,8 +50,8 @@ export default function MainNavigation() {
             </div>
           </div>
         </div> */}
-                 <div className="w-full my-auto">
-          <ul className="hidden md:flex flex-row md:gap-10 lg:gap-16 justify-center items-end md:text-[25px] lg:text-[23px] font-[60px]"> 
+                 <div className="w-[70%] mx-20 my-auto">
+          <ul className="hidden md:flex flex-row  justify-around  md:text-[25px] lg:text-[23px] font-[60px]"> 
         <li><a className=" hover:text-org1" href="/">Home</a></li>
         <li><Link className=" hover:text-org1" to="/courses">Courses</Link></li>
         <li><Link className=" hover:text-org1" to="/contact">Contact</Link></li>
