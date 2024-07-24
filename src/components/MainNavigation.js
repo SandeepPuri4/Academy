@@ -9,10 +9,13 @@ export default function MainNavigation() {
     <>
     <div className="mx-auto  text-white md:w-full">
       <header className=" hidden md:h-40 md:flex md:flex-row justify-between w-full mx-auto lg:px-4 md:px-0">
-        <p className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto  md:ml-6 object-cover md:items-start">
-          
-          <img src={logo} alt="logo" className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28 " />
-          </p>
+      <Link to="/" className="h-[70px] lg:w-[390px] xl:w-[700px] md:w-[250px] my-auto md:ml-6 object-cover md:items-start">
+      <img
+        src={logo}
+        alt="logo"
+        className="ml-3 mt-2 xl:w-[210px] xl:h-[75px] xl:mx-28"
+      />
+    </Link>
         {/* <div className="flex flex-col md:w-auto md:flex md:flex-wrap md:mx-20 md:gap-10">
           <div className="flex justify-evenly mx-4 my-3 px-3 py-6">
             <p className="mt-1">
