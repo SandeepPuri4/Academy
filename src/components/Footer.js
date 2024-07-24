@@ -166,6 +166,16 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      <div className="mt-2  relative group w-[430px]">
+      <p className="text-sm px-16">
+        © Copyrights 2024 FutureDev All rights reserved
+      </p>
+      <div className="absolute hidden text-sm  group-hover:block ">
+        <p className="text-sm px-16 text-org1">Developed And Maintained By Mr. Sandeep Puri</p>
+      </div>
+      </div>
+     
     </footer>
 
 
