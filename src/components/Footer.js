@@ -60,7 +60,7 @@ export default function Footer() {
           {/* Left Section - Company Logo and Google Map */}
           <div className="flex flex-col mb-8  md:w-1/3">
             <div className="flex items-center mb-4 md:mb-0 md:mt-10">
-              <img className="h-10 w-auto md:h-16" src={logo} alt="Company Logo" />
+              <img className=" w-[150px]" src={logo} alt="Company Logo" />
             </div>
             <div className="aspect-w-16 aspect-h-9 mb-4 md:hidden">
               <iframe
