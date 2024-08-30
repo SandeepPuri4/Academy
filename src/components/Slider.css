@@ -1,7 +1,5 @@
-/* slider.css */
-
 .slick-dots {
-  bottom: /* Adjust this value to position dots as needed */
+  bottom: ; /* Adjust this value to position dots as needed */
 }
 
 .slick-dots li button:before {

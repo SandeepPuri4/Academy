@@ -38,20 +38,15 @@ body {
 }
 
  */
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-
-
-
- @media (max-width: 415px) {
+@media (max-width: 415px) {
   body {
     @apply w-[415px];
   }
 }
 
-
-@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
