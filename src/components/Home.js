@@ -7,20 +7,17 @@ import MainSection from "./MainSection";
 import Welcome from "./Welcome";
 import Form from "./Formm";
 
-
-
 export default function Home() {
-  return <>
-  
-          {/* <MobileNav /> */}
-          <MainNavigation />
-          {/* <Navigation /> */}
-          <MainSection />
-          <Welcome />
-          <Courses />
-          <Form />
-          <Footer />
-  
-  
-  </>
+  return (
+    <>
+      {/* <MobileNav /> */}
+      <MainNavigation />
+      {/* <Navigation /> */}
+      <MainSection />
+      <Welcome />
+      <Courses />
+      <Form />
+      <Footer />
+    </>
+  );
 }

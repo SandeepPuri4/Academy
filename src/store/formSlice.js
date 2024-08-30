@@ -1,14 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const formSlice = createSlice({
-  name: 'form',
+  name: "form",
   initialState: {
     isOpen: false,
     formData: {
-      name: '',
-      email: '',
-      contact: '',
-      description: '',
+      name: "",
+      email: "",
+      contact: "",
+      description: "",
     },
   },
   reducers: {
@@ -23,20 +23,16 @@ const formSlice = createSlice({
     },
     resetFormData: (state) => {
       state.formData = {
-        name: '',
-        email: '',
-        contact: '',
-        description: '',
+        name: "",
+        email: "",
+        contact: "",
+        description: "",
       };
     },
   },
 });
 
-
-
-
-
-
-export const { openForm, closeForm, updateFormData, resetFormData } = formSlice.actions;
+export const { openForm, closeForm, updateFormData, resetFormData } =
+  formSlice.actions;
 
 export default formSlice.reducer;

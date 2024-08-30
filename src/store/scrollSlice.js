@@ -1,8 +1,8 @@
 // scrollSlice.js
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const scrollSlice = createSlice({
-  name: 'scroll',
+  name: "scroll",
   initialState: {
     scrollRef: null,
   },
