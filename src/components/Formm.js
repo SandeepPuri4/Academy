@@ -25,7 +25,7 @@ export default function Form() {
     if (name && contact && email && description) {
       try {
         const res = await fetch(
-          "https://practice-c217b-default-rtdb.firebaseio.com/contacts.json",
+          "https://academy2-ae8a0-default-rtdb.firebaseio.com/contacts.json",
           {
             method: "POST",
             headers: {
