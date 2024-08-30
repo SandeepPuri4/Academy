@@ -20,7 +20,7 @@ export default function Form() {
     if (name && contact && email && description) {
       try {
         const res = await fetch(
-          "https://practice-c217b-default-rtdb.firebaseio.com/contacts.json",
+          "https://academy2-ae8a0-default-rtdb.firebaseio.com/contacts.json",
           {
             method: "POST",
             headers: {
@@ -64,7 +64,7 @@ export default function Form() {
       exit="hidden"
       className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
     >
-      <div className="bg-prime2 p-4 rounded w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+      <div className="bg-prime2 p-4 rounded w-full text-black max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
         <h2 className="text-2xl font-bold mb-4 text-center text-orange-600">
           Enroll Now
           <br />
